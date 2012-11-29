@@ -11,6 +11,15 @@
 		<!-- For syntax highlighting -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
 		
+		<!-- Declaring Projekktor -->
+		<!-- Load player theme -->
+    <link rel="stylesheet" href="theme/style.css" type="text/css" media="screen" />
+    <!-- Load jquery -->
+    <script type="text/javascript" src="jquery-1.7.2.min.js"></script>
+    <!-- load projekktor -->
+    <script type="text/javascript" src="projekktor-1.2.02r134.min.js"></script>
+		<!-- Declaration ending for Projekktor -->
+		
 		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
 		<script>
 			document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
@@ -61,15 +70,13 @@
 						<p><a>Enterprise wiki (Confluence)</a>
 						<br/><img src="Atlassian/Confluence.jpg" alt="Atlassian Confluence">
 						</p>
-					
 						<img width="50" height="50" src="img/arrow-below.png" alt="down arrow">
 					</section>
 					<section>
 						<!-- <h2>Product two</h2> -->
 						<p><a>Bug tracker (JIRA)</a>
 						<br/><img src="Atlassian/jira.jpg" alt="Atlassian Jira">
-						</p> 
-						<p>video can be merged here ...</p>
+						</p>
 						<img width="50" height="50" src="img/arrow-below.png" alt="down arrow">
 					</section>
 					<section>
@@ -77,15 +84,13 @@
 						<p><a>An agile project management tool (GreenHopper)</a>
                         <img src="Atlassian/greenhopper.jpg" alt="Atlassian Greenhopper">
 						</p>
-						<p>video can be merged here ...</p>
 						<img width="50" height="50" src="img/arrow-below.png" alt="down arrow">
 					</section>
 					<section>
 						<!-- <h2>Product four</h2> -->
 						<p><a>A source code insight tool (FishEye)</a>
                         <img height="450" src="Atlassian/fisheye.jpg" alt="Atlassian FishEye">
-						</p> 
-						<p>video can be merged here ...</p>
+						</p>
 						<img width="50" height="50" src="img/arrow-below.png" alt="down arrow">
 					</section>
 					<section>
@@ -93,23 +98,20 @@
 						<p><a>A code review tool (Crucible)</a>
 						<br/><img src="Atlassian/crucible.jpg" alt="Atlassian Crucible">
 						</p>
-						<p>video can be merged here ...</p>
 						<img width="50" height="50" src="img/arrow-below.png" alt="down arrow">
 					</section>
 					<section>
 					<!-- <h2>Product six</h2> -->
 					<p><a>A continuous integration server (Bamboo)</a>
 					<br/><img height="500" src="Atlassian/bamboo.jpg" alt="Atlassian Bamboo">
-					</p> 
-					<p>video can be merged here ...</p>
+					</p>
 					<img width="50" height="50" src="img/arrow-below.png" alt="down arrow">
 					</section>
 					<section>
 					<!-- <h2>Product six</h2> -->
 					<p><a>Unlimited Git Code Hosting (Bitbucket.Org)</a>
 					<br/><img height="500" src="Atlassian/bitbucket.jpg" alt="Atlassian Bitbucket">
-					</p> 
-					<p>video can be merged here ...</p>
+					</p>
 					<img width="50" height="50" src="img/arrow-below.png" alt="down arrow">
 					</section>
 					<section>
@@ -138,7 +140,6 @@
 					<br/><img width="50" height="50" src="img/arrow-right.png" alt="right arrow">
                	</section>
 				</section>
-					
 <!-- Starting Confluence -->
 				<section>
 					<h2>Confluence : Point of View</h2>
@@ -222,14 +223,28 @@
 				</section>
 				<section>
 					<h2>A Typical Confluence Dashboard</h2>
-					<p>
-						<img width="800" height="200" src="Atlassian/Confluence.jpg" alt="Atlassian Confluence">
-						<img width="800" height="200" src="Atlassian/new_page.jpg" alt="Atlassian Confluence - Create a new Page">
-						</p><img width="50" height="50" src="img/arrow-right.png" alt="right arrow">
-					</p>
+					<table  style="align:center; vertical-align:top;">
+					<tr>
+					    <td style="align:center; vertical-align:top;">
+						<p>
+						<img width="600" height="250" src="Atlassian/Confluence.jpg" alt="Atlassian Confluence">
+						<img width="600" height="250" src="Atlassian/new_page.jpg" alt="Atlassian Confluence - Create a new Page">
+						</p>
+						</td>
+					    <td  style="align:center; vertical-align:middle;">
+						<video id="player_a" class="projekktor" poster="media/intro.png" title="" width="200" height="150" controls>
+                               <source src="media/intro.ogv" type="video/ogg" />
+                               <source src="media/intro.mp4" type="video/mp4" />
+                               <source src="media/intro.webm" type="video/webm" />
+                         </video>
+						</td>
+					</tr>
+                    <tr><td><p>
+					    <img width="50" height="50" src="img/arrow-right.png" alt="right arrow"></p></td>
+					</tr>					
+					</table>					
 				</section>
 <!-- Ending Confluence -->
-				
 <!-- Jira -->
 				<section>
 					<h2>Jira : Point of View</h2>
@@ -313,16 +328,28 @@
 				</section>
 				<section>
 					<h2>A Typical Jira Dashboard</h2>
+					<table  style="align:center; vertical-align:top;">
+					<tr>
+					    <td style="align:center; vertical-align:top;">
 					<p>
-						<img width="800" height="200" src="Atlassian/Confluence.jpg" alt="Atlassian Confluence">
-						<img width="800" height="200" src="Atlassian/new_page.jpg" alt="Atlassian Confluence - Create a new Page">
-						</p><img width="50" height="50" src="img/arrow-right.png" alt="right arrow">
+						<img width="600" height="250" src="Atlassian/Jira.jpg" alt="Atlassian Jira">
+						<img width="600" height="250" src="Atlassian/new_page_Jira.jpg" alt="Atlassian Jira - Create a new Page">						
 					</p>
+						</td>
+					    <td  style="align:center; vertical-align:middle;">
+						<video id="player_a" class="projekktor" poster="media/intro.png" title="" width="200" height="150" controls>
+                               <source src="media/intro.ogv" type="video/ogg" />
+                               <source src="media/intro.mp4" type="video/mp4" />
+                               <source src="media/intro.webm" type="video/webm" />
+                         </video>
+						</td>
+					</tr>
+                    <tr><td><p>
+					    <img width="50" height="50" src="img/arrow-right.png" alt="right arrow"></p></td>
+					</tr>					
+					</table>					
 				</section>
 <!-- Ending Jira -->
-
-
-
 <!-- GreenHopper -->
 				<section>
 					<h2>GreenHopper : Point of View</h2>
@@ -406,15 +433,28 @@
 				</section>
 				<section>
 					<h2>A Typical GreenHopper Dashboard</h2>
+                <table  style="align:center; vertical-align:top;">
+					<tr>
+					    <td style="align:center; vertical-align:top;">
 					<p>
-						<img width="800" height="200" src="Atlassian/Confluence.jpg" alt="Atlassian Confluence">
-						<img width="800" height="200" src="Atlassian/new_page.jpg" alt="Atlassian Confluence - Create a new Page">
-						</p><img width="50" height="50" src="img/arrow-right.png" alt="right arrow">
+						<img width="600" height="250" src="Atlassian/GreenHopper.jpg" alt="Atlassian GreenHopper">
+						<img width="600" height="250" src="Atlassian/new_page_GreenHopper.jpg" alt="Atlassian GreenHopper - Create a new Page">
 					</p>
+						</td>
+					    <td  style="align:center; vertical-align:middle;">
+						<video id="player_a" class="projekktor" poster="media/intro.png" title="" width="200" height="150" controls>
+                               <source src="media/intro.ogv" type="video/ogg" />
+                               <source src="media/intro.mp4" type="video/mp4" />
+                               <source src="media/intro.webm" type="video/webm" />
+                         </video>
+						</td>
+					</tr>
+                    <tr><td><p>
+					    <img width="50" height="50" src="img/arrow-right.png" alt="right arrow"></p></td>
+					</tr>					
+					</table>
 				</section>
 <!-- Ending GreenHopper -->
-
-
 <!-- Fisheye -->
 				<section>
 					<h2>Fisheye : Point of View</h2>
@@ -498,15 +538,28 @@
 				</section>
 				<section>
 					<h2>A Typical Fisheye Dashboard</h2>
+					<table  style="align:center; vertical-align:top;">
+					<tr>
+					    <td style="align:center; vertical-align:top;">
 					<p>
-						<img width="800" height="200" src="Atlassian/Confluence.jpg" alt="Atlassian Confluence">
-						<img width="800" height="200" src="Atlassian/new_page.jpg" alt="Atlassian Confluence - Create a new Page">
-						</p><img width="50" height="50" src="img/arrow-right.png" alt="right arrow">
+						<img width="600" height="250" src="Atlassian/Fisheye.jpg" alt="Atlassian Fisheye">
+						<img width="600" height="250" src="Atlassian/new_page_Fisheye.jpg" alt="Atlassian Fisheye - Create a new Page">
 					</p>
+						</td>
+					    <td  style="align:center; vertical-align:middle;">
+						<video id="player_a" class="projekktor" poster="media/intro.png" title="" width="200" height="150" controls>
+                               <source src="media/intro.ogv" type="video/ogg" />
+                               <source src="media/intro.mp4" type="video/mp4" />
+                               <source src="media/intro.webm" type="video/webm" />
+                         </video>
+						</td>
+					</tr>
+                    <tr><td><p>
+					    <img width="50" height="50" src="img/arrow-right.png" alt="right arrow"></p></td>
+					</tr>					
+					</table>
 				</section>
 <!-- Ending Fisheye -->
-
-
 <!-- Crucible -->
 				<section>
 					<h2>Crucible : Point of View</h2>
@@ -590,15 +643,28 @@
 				</section>
 				<section>
 					<h2>A Typical Crucible Dashboard</h2>
+					<table  style="align:center; vertical-align:top;">
+					<tr>
+					    <td style="align:center; vertical-align:top;">
 					<p>
-						<img width="800" height="200" src="Atlassian/Confluence.jpg" alt="Atlassian Confluence">
-						<img width="800" height="200" src="Atlassian/new_page.jpg" alt="Atlassian Confluence - Create a new Page">
-						</p><img width="50" height="50" src="img/arrow-right.png" alt="right arrow">
+						<img width="600" height="250" src="Atlassian/Crucible.jpg" alt="Atlassian Crucible">
+						<img width="600" height="250" src="Atlassian/new_page_Crucible.jpg" alt="Atlassian Crucible - Create a new Page">
 					</p>
+						</td>
+					    <td  style="align:center; vertical-align:middle;">
+						<video id="player_a" class="projekktor" poster="media/intro.png" title="" width="200" height="150" controls>
+                               <source src="media/intro.ogv" type="video/ogg" />
+                               <source src="media/intro.mp4" type="video/mp4" />
+                               <source src="media/intro.webm" type="video/webm" />
+                         </video>
+						</td>
+					</tr>
+                    <tr><td><p>
+					    <img width="50" height="50" src="img/arrow-right.png" alt="right arrow"></p></td>
+					</tr>					
+					</table>
 				</section>
 <!-- Ending Crucible -->
-
-
 <!-- Bamboo -->
 				<section>
 					<h2>Bamboo : Point of View</h2>
@@ -682,14 +748,28 @@
 				</section>
 				<section>
 					<h2>A Typical Bamboo Dashboard</h2>
+					<table  style="align:center; vertical-align:top;">
+					<tr>
+					    <td style="align:center; vertical-align:top;">
 					<p>
-						<img width="800" height="200" src="Atlassian/Confluence.jpg" alt="Atlassian Confluence">
-						<img width="800" height="200" src="Atlassian/new_page.jpg" alt="Atlassian Confluence - Create a new Page">
-						</p><img width="50" height="50" src="img/arrow-right.png" alt="right arrow">
+						<img width="600" height="250" src="Atlassian/Bamboo.jpg" alt="Atlassian Bamboo">
+						<img width="600" height="250" src="Atlassian/new_page_Bamboo.jpg" alt="Atlassian Bamboo - Create a new Page">
 					</p>
+						</td>
+					    <td  style="align:center; vertical-align:middle;">
+						<video id="player_a" class="projekktor" poster="media/intro.png" title="" width="200" height="150" controls>
+                               <source src="media/intro.ogv" type="video/ogg" />
+                               <source src="media/intro.mp4" type="video/mp4" />
+                               <source src="media/intro.webm" type="video/webm" />
+                         </video>
+						</td>
+					</tr>
+                    <tr><td><p>
+					    <img width="50" height="50" src="img/arrow-right.png" alt="right arrow"></p></td>
+					</tr>					
+					</table>
 				</section>
 <!-- Ending Bamboo -->
-
 <!-- BitBucket -->
 				<section>
 					<h2>BitBucket : Point of View</h2>
@@ -773,14 +853,28 @@
 				</section>
 				<section>
 					<h2>A Typical BitBucket Dashboard</h2>
+					<table  style="align:center; vertical-align:top;">
+					<tr>
+					    <td style="align:center; vertical-align:top;">
 					<p>
-						<img width="800" height="200" src="Atlassian/Confluence.jpg" alt="Atlassian Confluence">
-						<img width="800" height="200" src="Atlassian/new_page.jpg" alt="Atlassian Confluence - Create a new Page">
-						</p><img width="50" height="50" src="img/arrow-right.png" alt="right arrow">
+						<img width="600" height="250" src="Atlassian/BitBucket.jpg" alt="Atlassian BitBucket">
+						<img width="600" height="250" src="Atlassian/new_page_BitBucket.jpg" alt="Atlassian BitBucket - Create a new Page">
 					</p>
+						</td>
+					    <td  style="align:center; vertical-align:middle;">
+						<video id="player_a" class="projekktor" poster="media/intro.png" title="" width="200" height="150" controls>
+                               <source src="media/intro.ogv" type="video/ogg" />
+                               <source src="media/intro.mp4" type="video/mp4" />
+                               <source src="media/intro.webm" type="video/webm" />
+                         </video>
+						</td>
+					</tr>
+                    <tr><td><p>
+					    <img width="50" height="50" src="img/arrow-right.png" alt="right arrow"></p></td>
+					</tr>					
+					</table>
 				</section>
 <!-- Ending BitBucket -->
-				
 
 	<!--
 			<section>
@@ -1024,7 +1118,6 @@ function linkify( selector ) {
 		<script src="js/reveal.min.js"></script>
 		<script>
 			// Full list of configuration options available here:
-			// https://github.com/hakimel/reveal.js#configuration
 			Reveal.initialize({
 				controls: true,
 				progress: true,
@@ -1044,5 +1137,27 @@ function linkify( selector ) {
 				]
 			});
 		</script>
+		<script type="text/javascript">
+	          $(document).ready(function() {
+	           projekktor(
+                '#player_a', // destination-container-selector-fuzz a la jQuery
+                {}, // an empty Projekktor-ccofig-object
+                function(player) { // "onready" callback -
+                    // $('#projekktorver').html( player.getPlayerVer() );
+                }
+				[b]onReadyFunc = function(player) {
+		             player.setFullscreen(true);
+                    	}[/b]
+	                 var player = projekktor('.projekktor', {
+		                width: 1000,
+                   		height: 600,	
+		                autoplay: true,
+		                continuous: true,
+		                volume: 1,
+		                enableFullScreen:true,
+		            }, [b]onReadyFunc[/b]);
+	            );
+        	});
+    </script>		
 	</body>
 </html>
