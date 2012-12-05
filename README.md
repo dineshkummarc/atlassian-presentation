@@ -2,7 +2,7 @@
 
 A presentation on Atlassian products jira, Confluence, Crucible, Bamboo, Bitbucket etc using THE HTML PRESENTATION FRAMEWORK by HAKIM EL HATTAM.
 
-Some this more about Framework :-
+## Some thing more about Framework
 
 # reveal.js
 
