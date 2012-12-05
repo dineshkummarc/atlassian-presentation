@@ -1,3 +1,9 @@
+# reveal.js-presentation
+
+A presentation on Atlassian products jira, Confluence, Crucible, Bamboo, Bitbucket etc using THE HTML PRESENTATION FRAMEWORK by HAKIM EL HATTAM.
+
+Some this more about Framework :-
+
 # reveal.js
 
 A framework for easily creating beautiful presentations using HTML. [Check out the live demo](http://lab.hakim.se/reveal-js/).
