@@ -1,16 +1,12 @@
 /* global module:false */
 module.exports = function(grunt) {
-
 	// Project configuration
 	grunt.initConfig({
 		pkg: '<json:package.json>',
-
 		inputJS: 'js/reveal.js',
 		inputCSS: 'css/reveal.css',
-
 		outputJS: 'js/reveal.min.js',
 		outputCSS: 'css/reveal.min.css',
-
 		meta: {
 			version: '2.2',
 			banner: 
@@ -22,23 +18,19 @@ module.exports = function(grunt) {
 				' * Copyright (C) 2011-2012 Hakim El Hattab, http://hakim.se\n' +
 				' */'
 		},
-
 		lint: {
 			files: [ 'grunt.js', '<%= inputJS %>' ]
 		},
-
 		// Tests will be added soon
 		qunit: {
 			files: [ 'test/**/*.html' ]
 		},
-
 		min: {
 			dist: {
 				src: [ '<banner:meta.banner>', '<%= inputJS %>' ],
 				dest: '<%= outputJS %>'
 			}
 		},
-
 		mincss: {
 			compress: {
 				files: {
@@ -46,7 +38,6 @@ module.exports = function(grunt) {
 				}
 			}
 		},
-
 		jshint: {
 			options: {
 				curly: false,
@@ -66,18 +57,13 @@ module.exports = function(grunt) {
 				module: false
 			}
 		},
-
 		watch: {
 			files: [ 'grunt.js', '<%= inputJS %>', '<%= inputCSS %>' ],
 			tasks: 'default'
 		}
-
 	});
-	
 	// Dependencies
 	grunt.loadNpmTasks( 'grunt-contrib-mincss' );
-
 	// Default task
 	grunt.registerTask( 'default', [ 'lint', 'mincss', 'min' ] );
-
 };
