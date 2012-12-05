@@ -1,16 +1,16 @@
 {
-	"name": "reveal.js",
-	"version": "2.2.0",
-	"description": "The HTML Presentation Framework",
-	"homepage": "http://lab.hakim.se/reveal-js",
+	"name": "reveal.js-presentation",
+	"version": "3.0.0",
+	"description": "Atlassian Products Presentation using The HTML Presentation Framework by Hakim El Hattab",
+	"homepage": "http://github.com/dineshkummarc/reveal.js-presentation",
 	"author": {
-		"name": "Hakim El Hattab",
-		"email": "hakim.elhattab@gmail.com",
-		"web": "http://hakim.se"
+		"name": "Dinesh Kr. Choudhary",
+		"email": "dineshkummarc@gmail.com",
+		"web": "http://doctor.co.in"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git://github.com/hakimel/reveal.js.git"
+		"url": "git://github.com/dineshkummarc/reveal.js-presentation.git"
 	},
 	"engines": {
 		"node": "~0.8.0"
