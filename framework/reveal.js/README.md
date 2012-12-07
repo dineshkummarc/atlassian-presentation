@@ -4,7 +4,6 @@ A framework for easily creating beautiful presentations using HTML. [Check out t
 
 reveal.js comes with a broad range of features including [nested slides](https://github.com/hakimel/reveal.js#markup), [markdown contents](https://github.com/hakimel/reveal.js#markdown), [PDF export](https://github.com/hakimel/reveal.js#pdf-export), [speaker notes](https://github.com/hakimel/reveal.js#speaker-notes) and a [JavaScript API](https://github.com/hakimel/reveal.js#api). It's best viewed in a browser with support for CSS 3D transforms but [fallbacks](https://github.com/hakimel/reveal.js/wiki/Browser-Support) are available to make sure your presentation can still be viewed elsewhere.
 
-
 #### More reading in the Wiki:
 - [Changelog](https://github.com/hakimel/reveal.js/wiki/Changelog): Up-to-date version history.
 - [Examples](https://github.com/hakimel/reveal.js/wiki/Example-Presentations): Presentations created with reveal.js, add your own!
@@ -13,7 +12,6 @@ reveal.js comes with a broad range of features including [nested slides](https:/
 ## rvl.io
 
 Slides are written using HTML or markdown but there's also an online editor for those of you who prefer a more traditional user interface. Give it a try at [www.rvl.io](http://www.rvl.io).
-
 
 ## Instructions
 
@@ -48,7 +46,6 @@ This is based on [data-markdown](https://gist.github.com/1343518) from [Paul Iri
 	</script>
 </section>
 ```
-
 
 ### Configuration
 
@@ -133,7 +130,6 @@ You can add your own extensions using the same syntax. The following properties 
 - **callback**: [optional] Function to execute when the script has loaded
 - **condition**: [optional] Function which must return true for the script to be loaded
 
-
 ### API
 
 The Reveal class provides a minimal JavaScript API for controlling navigation and reading state:
@@ -212,7 +208,6 @@ You can also add relative navigation links, similar to the built in reveal.js co
 <a href="#" class="navigate-next"> <!-- Next vertical or horizontal slide -->
 ```
 
-
 ### Fragments
 Fragments are used to highlight individual elements on a slide. Every elmement with the class ```fragment``` will be stepped through before moving on to the next slide. Here's an example: http://lab.hakim.se/reveal-js/#/16
 
@@ -276,7 +271,6 @@ Here's an example of an exported presentation that's been uploaded to SlideShare
 
 ![Chrome Print Settings](https://s3.amazonaws.com/hakim-static/reveal-js/pdf-print-settings.png)
 
-
 ## Speaker Notes
 
 reveal.js comes with a speaker notes plugin which can be used to present per-slide notes in a separate browser window. The notes window also gives you a preview of the next upcoming slide so it may be helpful even if you haven't written any notes. Append ```?notes``` to presentation URL or press the 's' key on your keyboard to open the notes window.
@@ -308,8 +302,7 @@ Then:
 2. Run ```npm install```
 3. Run ```node plugin/notes-server```
 
-
-## Development Environment 
+## Development Environment
 
 reveal.js is built using the task-based command line build tool [grunt.js](http://gruntjs.com) ([installation instructions](https://github.com/gruntjs/grunt#installing-grunt)). With Node.js and grunt.js installed, you need to start by running ```npm install``` in the reveal.js root. When the dependencies have been installed you should run ```grunt watch``` to start monitoring files for changes.
 
@@ -321,10 +314,8 @@ If you want to customise reveal.js without running grunt.js you can alter the HT
 - **plugin/** Components that have been developed as extensions to reveal.js
 - **lib/** All other third party assets (JavaScript, CSS, fonts)
 
-
 ## License
 
 MIT licensed
 
 Copyright (C) 2011-2012 Hakim El Hattab, http://hakim.se
-
