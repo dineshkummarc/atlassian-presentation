@@ -12,12 +12,15 @@
 		<link rel="stylesheet" href="lib/css/zenburn.css">
 		<!-- Declaring Projekktor -->
 		<!-- Load player theme -->
-    <link rel="stylesheet" href="theme/style.css" type="text/css" media="screen" />
+        <link rel="stylesheet" href="theme/style.css" type="text/css" media="screen" />
     <!-- Load jquery -->
-    <script type="text/javascript" src="jquery-1.7.2.min.js"></script>
+        <script type="text/javascript" src="jquery-1.7.2.min.js"></script>
     <!-- load projekktor -->
-    <script type="text/javascript" src="projekktor-1.2.02r134.min.js"></script>
+        <script type="text/javascript" src="projekktor-1.2.02r134.min.js"></script>
 		<!-- Declaration ending for Projekktor -->
+		<!-- for lightbox2 declaration -->
+		<link rel="shortcut icon" type="image/ico" href="images/favicon.gif" />	
+	    <link rel="stylesheet" href="css/lightbox.css" type="text/css" media="screen" />
 		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
 		<script>
 			document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
@@ -225,10 +228,14 @@
 					<table style="align:center; vertical-align:top;">
 					<tr>
 					    <td style="align:center; vertical-align:top;">
-						<p>
-						<img width="600" height="250" src="Atlassian/Confluence.jpg" alt="Atlassian Confluence" />
-						<img width="600" height="250" src="Atlassian/new_page.jpg" alt="Atlassian Confluence - Create a new Page" />
-						</p>
+						
+						<div class="section" id="example">
+						<div class="single">
+						<a href="Atlassian/Confluence.jpg" rel="lightbox"><img width="600" height="250" src="Atlassian/Confluence.jpg" alt="Atlassian Confluence" /></a>
+						<a href="Atlassian/new_page.jpg" rel="lightbox"><img width="600" height="250" src="Atlassian/new_page.jpg" alt="Atlassian Confluence - Create a new Page" /></a>
+						</div>
+						</div>
+						
 						</td>
 					    <td  style="align:center; vertical-align:middle;">
 						<video id="player_a" class="projekktor" poster="media/intro.png" title="" width="200" height="150" controls>
@@ -345,10 +352,14 @@
 					<h2>A Typical Jira Dashboard</h2>
 					<table style="align:center; vertical-align:top;">
 					<tr>
-					    <td style="align:center; vertical-align:top;">
-					<p>
-						<img width="600" height="250" src="Atlassian/Jira.jpg" alt="Atlassian Jira" />
-					</p>
+					    <td style="align:center; vertical-align:top;">			
+					
+					<div class="section" id="example">
+						<div class="single">
+						<a href="Atlassian/Jira.jpg" rel="lightbox"><img width="600" height="250" src="Atlassian/Jira.jpg" alt="Atlassian Jira" /></a>
+						</div>
+						</div>
+						
 						</td>
 					    <td  style="align:center; vertical-align:middle;">
 						<video id="player_a" class="projekktor" poster="media/intro.png" title="" width="200" height="150" controls>
@@ -429,9 +440,13 @@
                 <table style="align:center; vertical-align:top;">
 					<tr>
 					    <td style="align:center; vertical-align:top;">
-					<p>
-						<img width="600" height="250" src="Atlassian/GreenHopper.jpg" alt="Atlassian GreenHopper" />
-					</p>
+					
+					<div class="section" id="example">
+						<div class="single">
+						<a href="Atlassian/GreenHopper.jpg" rel="lightbox"><img width="600" height="250" src="Atlassian/GreenHopper.jpg" alt="Atlassian GreenHopper" /></a>
+						</div>
+						</div>
+					
 						</td>
 					    <td  style="align:center; vertical-align:middle;">
 						<video id="player_a" class="projekktor" poster="media/intro.png" title="" width="200" height="150" controls>
@@ -516,9 +531,13 @@
 					<table style="align:center; vertical-align:top;">
 					<tr>
 					    <td style="align:center; vertical-align:top;">
-					<p>
-						<img width="600" height="250" src="Atlassian/Fisheye.jpg" alt="Atlassian Fisheye" />
-					</p>
+					
+					<div class="section" id="example">
+						<div class="single">
+						<a href="Atlassian/Fisheye.jpg" rel="lightbox"><img width="600" height="250" src="Atlassian/Fisheye.jpg" alt="Atlassian Fisheye" /></a>
+						</div>
+						</div>
+					
 						</td>
 					    <td  style="align:center; vertical-align:middle;">
 						<video id="player_a" class="projekktor" poster="media/intro.png" title="" width="200" height="150" controls>
@@ -590,10 +609,14 @@
 					<h2>A Typical Crucible Dashboard</h2>
 					<table style="align:center; vertical-align:top;">
 					<tr>
-					    <td style="align:center; vertical-align:top;">
-					<p>
-						<img width="600" height="250" src="Atlassian/Crucible.jpg" alt="Atlassian Crucible" />
-					</p>
+					    <td style="align:center; vertical-align:top;">		
+					
+					<div class="section" id="example">
+						<div class="single">
+						<a href="Atlassian/Crucible.jpg" rel="lightbox"><img width="600" height="250" src="Atlassian/Crucible.jpg" alt="Atlassian Crucible" /></a>
+						</div>
+						</div>
+			
 						</td>
 					    <td  style="align:center; vertical-align:middle;">
 						<video id="player_a" class="projekktor" poster="media/intro.png" title="" width="200" height="150" controls>
@@ -753,9 +776,13 @@
 					<table style="align:center; vertical-align:top;">
 					<tr>
 					    <td style="align:center; vertical-align:top;">
-					<p>
-						<img width="600" height="250" src="Atlassian/Bamboo.jpg" alt="Atlassian Bamboo" />
-					</p>
+					
+					<div class="section" id="example">
+						<div class="single">
+						<a href="Atlassian/Bamboo.jpg" rel="lightbox"><img width="600" height="250" src="Atlassian/Bamboo.jpg" alt="Atlassian Bamboo" /></a>
+						</div>
+						</div>
+				
 						</td>
 					    <td  style="align:center; vertical-align:middle;">
 						<video id="player_a" class="projekktor" poster="media/intro.png" title="" width="200" height="150" controls>
@@ -832,9 +859,13 @@
 					<table style="align:center; vertical-align:top;">
 					<tr>
 					    <td style="align:center; vertical-align:top;">
-					<p>
-						<img width="600" height="250" src="Atlassian/BitBucket.jpg" alt="Atlassian BitBucket" />
-					</p>
+					
+					<div class="section" id="example">
+						<div class="single">
+						<a href="Atlassian/BitBucket.jpg" rel="lightbox"><img width="600" height="250" src="Atlassian/BitBucket.jpg" alt="Atlassian BitBucket" /></a>
+						</div>
+						</div>
+					
 						</td>
 					    <td  style="align:center; vertical-align:middle;">
 						<video id="player_a" class="projekktor" poster="media/intro.png" title="" width="200" height="150" controls>
@@ -1067,6 +1098,35 @@ function linkify( selector ) {
 		</div>
 		<script src="lib/js/head.min.js"></script>
 		<script src="js/reveal.min.js"></script>
+		
+		<script src="js/jquery-ui-1.8.18.custom.min.js"></script>
+        <script src="js/jquery.smooth-scroll.min.js"></script>
+        <script src="js/lightbox.js"></script>
+   <script>
+  jQuery(document).ready(function($) {
+      $('a').smoothScroll({
+        speed: 1000,
+        easing: 'easeInOutCubic'
+      });
+
+      $('.showOlderChanges').on('click', function(e){
+        $('.changelog .old').slideDown('slow');
+        $(this).fadeOut();
+        e.preventDefault();
+      })
+  });
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-2196019-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+        </script>
 		<script>
 			// Full list of configuration options available here:
 			Reveal.initialize({
