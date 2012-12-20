@@ -3,6 +3,11 @@
 A presentation on Atlassian products jira, Confluence, Crucible, Bamboo, Bitbucket etc using THE HTML PRESENTATION FRAMEWORK by HAKIM EL HATTAM.
 Added a new Framework for image overlay named Lightbox2 by LOKESH DHAKAR
 
+Todo :-
+1. images should show up in an overlay
+2. video added should show the whole of the process (working of confluence, crucible, jira etc)
+3. addition of features for the perticular type in the form of text and image overlay.
+
 ## Some thing more about Framework # Lightbox2
 by Lokesh Dhakar | [lokeshdhakar.com](http://www.lokeshdhakar.com)  | [twitter.com/lokeshdhakar](http://twitter.com/lokeshdhakar)  
 
