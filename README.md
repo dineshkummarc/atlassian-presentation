@@ -1,8 +1,15 @@
 # reveal.js-presentation
 
 A presentation on Atlassian products jira, Confluence, Crucible, Bamboo, Bitbucket etc using THE HTML PRESENTATION FRAMEWORK by HAKIM EL HATTAM.
+Added a new Framework for image overlay named Lightbox2 by LOKESH DHAKAR
 
-## Some thing more about Framework
+## Some thing more about Framework # Lightbox2
+by Lokesh Dhakar | [lokeshdhakar.com](http://www.lokeshdhakar.com)  | [twitter.com/lokeshdhakar](http://twitter.com/lokeshdhakar)  
+
+For more information:  
+[http://lokeshdhakar.com/projects/lightbox2/](http://lokeshdhakar.com/projects/lightbox2/)
+
+## Some thing more about Framework # REVEAL.JS
 
 # reveal.js
 
