@@ -28,6 +28,116 @@
 		<!--[if lt IE 9]>
 		<script src="lib/js/html5shiv.js"></script>
 		<![endif]-->
+		
+    <style type="text/css">
+
+    h1{
+        color: white;
+        margin: 0;
+        padding-right: 60px;
+        text-shadow: rgba(0, 0, 0, 0.347656) 0px 1px 2px;
+    }
+
+    h1 em{
+        display: block;
+        font: 0.55em / 1.5em normal;
+        color: #ccc;
+    }
+
+    h2{
+        margin: 60px 0 20px;
+        letter-spacing: -1px;
+    }
+	
+    a{
+        color: #FA834B;
+    }
+    
+    a:visited{
+        color: darkblue;
+    }
+
+    a:hover{  
+        color: black;
+        text-decoration: none;
+    }
+
+    header1{
+        background: #729ABD;
+        background: #5683ad;
+    }
+	
+	header{
+        background:  #FA834B;
+        background:  #FA834B;
+    }
+
+    header .logo{
+        height: 62px;
+        width: 38px;
+        display: block;
+        position: absolute;
+        top: -1px;
+        right: 32px;
+        line-height: 200px;
+        overflow: hidden;
+        background: url("src/amsoft1.jpg") top left no-repeat;
+        box-shadow: 0 2px 2px rgba(0, 0, 0, .35);
+    }
+
+    header .logo:hover{
+        top: 0px;
+    }
+
+    .wrapper{
+        width: 90%;
+        margin: 0 auto;
+        padding: 25px 0;
+    }
+
+    header + .wrapper{
+        padding: 0 0 50px;
+
+    }
+
+    code{
+        background: #eee;
+        border: 1px solid #d7d7d7;
+        padding: 0 3px;
+    }     
+    
+    #toc li+li{
+        margin: 5px 0 0 ;
+    }
+
+    .demos{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    .demos li{
+        padding: 0 0 5px;
+        margin: 0 0 30px;
+        border-bottom: 1px dashed #d7d7d7;
+    }
+    .demos li:last-child{
+        border: none;
+        margin: 0 0 0;     
+    }
+
+    @media all and (min-width: 640px){
+         .wrapper{
+             padding: 50px 0;
+             width: 600px;
+         }
+
+         header .logo{
+             right: 52px;
+         }
+    }
+    </style>		
+		
 	</head>
 	<body>
 		<div class="reveal">
@@ -224,7 +334,14 @@
 					</section>
 				</section>
 				<section>
-					<h2>A Typical Confluence Dashboard</h2>
+				
+				<header>
+                    <a href="http://www.amsoft.net/" target="_blank" class="logo"></a>
+                    <div class="wrapper">
+                       <h4>A Typical Confluence Dashboard <em></em></h4>
+                    </div>
+                </header>
+				
 					<table style="align:center; vertical-align:top;">
 					<tr>
 					    <td style="align:center; vertical-align:top;">
@@ -349,8 +466,15 @@
 					</section>
 				</section>
 				<section>
-					<h2>A Typical Jira Dashboard</h2>
-					<table style="align:center; vertical-align:top;">
+					
+					<header>
+                    <a href="http://www.amsoft.net/" target="_blank" class="logo"></a>
+                    <div class="wrapper">
+                       <h4>A Typical Jira Dashboard<em></em></h4>
+                    </div>
+                </header>
+				
+				<table style="align:center; vertical-align:top;">
 					<tr>
 					    <td style="align:center; vertical-align:top;">			
 					
@@ -436,7 +560,14 @@
 					</section>
 				</section>
 				<section>
-					<h2>A Typical GreenHopper Dashboard</h2>
+					
+				<header>
+                    <a href="http://www.amsoft.net/" target="_blank" class="logo"></a>
+                    <div class="wrapper">
+                       <h4>A Typical GreenHopper Dashboard<em></em></h4>
+                    </div>
+                </header>
+
                 <table style="align:center; vertical-align:top;">
 					<tr>
 					    <td style="align:center; vertical-align:top;">
@@ -527,7 +658,14 @@
 					</section>
 				</section>
 				<section>
-					<h2>A Typical Fisheye Dashboard</h2>
+					
+					<header>
+                    <a href="http://www.amsoft.net/" target="_blank" class="logo"></a>
+                    <div class="wrapper">
+                       <h4>A Typical Fisheye Dashboard<em></em></h4>
+                    </div>
+                </header>
+					
 					<table style="align:center; vertical-align:top;">
 					<tr>
 					    <td style="align:center; vertical-align:top;">
@@ -606,7 +744,14 @@
 					</section>
 				</section>
 				<section>
-					<h2>A Typical Crucible Dashboard</h2>
+					
+					<header>
+                    <a href="http://www.amsoft.net/" target="_blank" class="logo"></a>
+                    <div class="wrapper">
+                       <h4>A Typical Crucible Dashboard<em></em></h4>
+                    </div>
+                </header>
+					
 					<table style="align:center; vertical-align:top;">
 					<tr>
 					    <td style="align:center; vertical-align:top;">		
@@ -772,7 +917,15 @@
 				</section>
 		</section>
 				<section>
-					<h2>A Typical Bamboo Dashboard</h2>
+					
+					<header>
+                    <a href="http://www.amsoft.net/" target="_blank" class="logo"></a>
+                    <div class="wrapper">
+                       <h4>A Typical Bamboo Dashboard<em></em></h4>
+                    </div>
+                </header>
+					
+					
 					<table style="align:center; vertical-align:top;">
 					<tr>
 					    <td style="align:center; vertical-align:top;">
@@ -855,7 +1008,14 @@
 					</section>
 				</section>
 				<section>
-					<h2>A Typical BitBucket Dashboard</h2>
+					
+					<header>
+                    <a href="http://www.amsoft.net/" target="_blank" class="logo"></a>
+                    <div class="wrapper">
+                       <h4>A Typical BitBucket Dashboard<em></em></h4>
+                    </div>
+                </header>
+					
 					<table style="align:center; vertical-align:top;">
 					<tr>
 					    <td style="align:center; vertical-align:top;">
