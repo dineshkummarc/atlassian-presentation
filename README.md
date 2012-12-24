@@ -1,12 +1,39 @@
 # reveal.js-presentation
 
-A presentation on Atlassian products jira, Confluence, Crucible, Bamboo, Bitbucket etc using THE HTML PRESENTATION FRAMEWORK by HAKIM EL HATTAM.
-Added a new Framework for image overlay named Lightbox2 by LOKESH DHAKAR
+A presentation on Atlassian products jira, Confluence, Crucible, Bamboo, Bitbucket etc using THE HTML PRESENTATION FRAMEWORK by HAKIM EL HATTAM, Image overlay 
+Framework named Lightbox2 by LOKESH DHAKAR and Header-Footer Design Framework named CSS-PSEUDO-ELEMENTS by ADOBE SYSTEMS.
 
 Todo :-
 1. images should show up in an overlay
 2. video added should show the whole of the process (working of confluence, crucible, jira etc)
 3. addition of features for the perticular type in the form of text and image overlay.
+
+## Some thing more about Framework # CSS-PSEUDO-ELEMENTS
+
+# CSS Pseudo-elements
+Contains a prototype library for using a pseudo-elements syntax to create more boxes in the rendering tree, extending what is possible with ::before and ::after in CSS 2.1
+
+# MIT License
+Copyright (C) 2012 Adobe Systems, Incorporated. All rights reserved.
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+"Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ## Some thing more about Framework # Lightbox2
 by Lokesh Dhakar | [lokeshdhakar.com](http://www.lokeshdhakar.com)  | [twitter.com/lokeshdhakar](http://twitter.com/lokeshdhakar)  
