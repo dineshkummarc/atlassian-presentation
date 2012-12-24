@@ -1,7 +1,7 @@
 # reveal.js-presentation
 
 A presentation on Atlassian products jira, Confluence, Crucible, Bamboo, Bitbucket etc using THE HTML PRESENTATION FRAMEWORK by HAKIM EL HATTAM, Image overlay 
-Framework named Lightbox2 by LOKESH DHAKAR and Header-Footer Design Framework named CSS-PSEUDO-ELEMENTS by ADOBE SYSTEMS.
+Framework named Lightbox2 by LOKESH DHAKAR, Header-Footer Design Framework named CSS-PSEUDO-ELEMENTS by ADOBE SYSTEMS and image Slider framework named Slicebox.
 
 Todo :-
 1. images should show up in an overlay
@@ -46,6 +46,8 @@ Slicebox is  a jQuery 3D image slider plugin that makes use of CSS 3D Transfor
 Licensed under the MIT License
 
 ## Some thing more about Framework # Lightbox2
+Lightbox2
+=========
 by Lokesh Dhakar | [lokeshdhakar.com](http://www.lokeshdhakar.com)  | [twitter.com/lokeshdhakar](http://twitter.com/lokeshdhakar)  
 
 For more information:  
