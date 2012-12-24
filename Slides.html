@@ -14,13 +14,20 @@
 		<!-- Load player theme -->
         <link rel="stylesheet" href="theme/style.css" type="text/css" media="screen" />
     <!-- Load jquery -->
-        <script type="text/javascript" src="jquery-1.7.2.min.js"></script>
+        <script type="text/javascript" src="js/jquery.min.js"></script>
     <!-- load projekktor -->
         <script type="text/javascript" src="projekktor-1.2.02r134.min.js"></script>
 		<!-- Declaration ending for Projekktor -->
 		<!-- for lightbox2 declaration -->
 		<link rel="shortcut icon" type="image/ico" href="images/favicon.gif" />	
 	    <link rel="stylesheet" href="css/lightbox.css" type="text/css" media="screen" />
+		<!--light box ended -->
+		<!-- slice box -->
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/slicebox.css" />
+		<link rel="stylesheet" type="text/css" href="css/custom.css" />
+		<script type="text/javascript" src="js/modernizr.custom.46884.js"></script>
+		<!-- slice box ended-->
 		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
 		<script>
 			document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
@@ -28,50 +35,40 @@
 		<!--[if lt IE 9]>
 		<script src="lib/js/html5shiv.js"></script>
 		<![endif]-->
-		
     <style type="text/css">
-
     h1{
         color: white;
         margin: 0;
         padding-right: 60px;
         text-shadow: rgba(0, 0, 0, 0.347656) 0px 1px 2px;
     }
-
     h1 em{
         display: block;
         font: 0.55em / 1.5em normal;
         color: #ccc;
     }
-
     h2{
         margin: 60px 0 20px;
         letter-spacing: -1px;
     }
-	
     a{
         color: #FA834B;
     }
-    
     a:visited{
         color: darkblue;
     }
-
     a:hover{  
         color: black;
         text-decoration: none;
     }
-
     header1{
         background: #729ABD;
         background: #5683ad;
     }
-	
 	header{
         background:  #FA834B;
         background:  #FA834B;
     }
-
     header .logo{
         height: 62px;
         width: 38px;
@@ -84,38 +81,31 @@
         background: url("src/amsoft1.jpg") top left no-repeat;
         box-shadow: 0 2px 2px rgba(0, 0, 0, .35);
     }
-
     header .logo:hover{
         top: 0px;
     }
-
     .wrapper{
         width: 90%;
         margin: 0 auto;
         padding: 25px 0;
     }
-
     header + .wrapper{
         padding: 0 0 50px;
 
     }
-
     code{
         background: #eee;
         border: 1px solid #d7d7d7;
         padding: 0 3px;
     }     
-    
     #toc li+li{
         margin: 5px 0 0 ;
     }
-
     .demos{
         margin: 0;
         padding: 0;
         list-style: none;
     }
-
     .demos li{
         padding: 0 0 5px;
         margin: 0 0 30px;
@@ -125,19 +115,16 @@
         border: none;
         margin: 0 0 0;     
     }
-
     @media all and (min-width: 640px){
          .wrapper{
              padding: 50px 0;
              width: 600px;
          }
-
          header .logo{
              right: 52px;
          }
     }
     </style>		
-		
 	</head>
 	<body>
 		<div class="reveal">
@@ -170,11 +157,61 @@
 				<!-- Example of nested vertical slides -->
 				<section>
 					<section>
-						<h2>Why to use Atlassian : Continued</h2>
-						<p><img src="atlassian/pricing.jpg" alt="On Demand Pricing"></p>
-						<p>Atlassian produces agile development tools, including the</p> 
-						<br/>
+						<h2>Why to use Atlassian : Continued</h2>						
+				<div class="container">
+			       <div class="wrapper">
+				<ul id="sb-slider" class="sb-slider">
+					<li>
+						<a href="#" target="_blank"><img src="images/1.jpg" alt="image1"/></a>
+						<div class="sb-description">
+							<h3>Creative Lifesaver</h3>
+						</div>
+					</li>
+					<li>
+						<a href="#" target="_blank"><img src="images/2.jpg" alt="image2"/></a>
+						<div class="sb-description">
+							<h3>Honest Entertainer</h3>
+						</div>
+					</li>
+					<li>
+						<a href="#" target="_blank"><img src="images/3.jpg" alt="image1"/></a>
+						<div class="sb-description">
+							<h3>Brave Astronaut</h3>
+						</div>
+					</li>
+					<li>
+						<a href="#" target="_blank"><img src="images/4.jpg" alt="image1"/></a>
+						<div class="sb-description">
+							<h3>Affectionate Decision Maker</h3>
+						</div>
+					</li>
+					<li>
+						<a href="#" target="_blank"><img src="images/5.jpg" alt="image1"/></a>
+						<div class="sb-description">
+							<h3>Faithful Investor</h3>
+						</div>
+					</li>
+					<li>
+						<a href="#" target="_blank"><img src="images/6.jpg" alt="image1"/></a>
+						<div class="sb-description">
+							<h3>Groundbreaking Artist</h3>
+						</div>
+					</li>
+					<li>
+						<a href="#" target="_blank"><img src="images/7.jpg" alt="image1"/></a>
+						<div class="sb-description">
+							<h3>Selfless Philantropist</h3>
+						</div>
+					</li>
+				</ul>
+				<div id="nav-arrows" class="nav-arrows">
+					<a href="#">Next</a>
+					<a href="#">Previous</a>
+				</div>
+			</div><!-- /wrapper -->
+			<p>Atlassian produces agile development tools, including the</p>
 						<img width="50" height="50" src="img/arrow-below.png" alt="down arrow" />
+		</div>
 					</section>
 					<section>
 						<!-- <h2>Product One</h2> -->
@@ -333,25 +370,21 @@
 					</section>
 				</section>
 				<section>
-				
 				<header>
                     <a href="http://www.amsoft.net/" target="_blank" class="logo"></a>
                     <div class="wrapper">
                        <h4>A Typical Confluence Dashboard <em></em></h4>
                     </div>
                 </header>
-				
 					<table style="align:center; vertical-align:top;">
 					<tr>
 					    <td style="align:center; vertical-align:top;">
-						
 						<div class="section" id="example">
 						<div class="single">
 						<a href="Atlassian/Confluence.jpg" rel="lightbox"><img width="600" height="250" src="Atlassian/Confluence.jpg" alt="Atlassian Confluence" /></a>
 						<a href="Atlassian/new_page.jpg" rel="lightbox"><img width="600" height="250" src="Atlassian/new_page.jpg" alt="Atlassian Confluence - Create a new Page" /></a>
 						</div>
 						</div>
-						
 						</td>
 					    <td  style="align:center; vertical-align:middle;">
 						<video id="player_a" class="projekktor" poster="media/intro.png" title="" width="200" height="150" controls>
@@ -465,24 +498,20 @@
 					</section>
 				</section>
 				<section>
-					
 					<header>
                     <a href="http://www.amsoft.net/" target="_blank" class="logo"></a>
                     <div class="wrapper">
                        <h4>A Typical Jira Dashboard<em></em></h4>
                     </div>
                 </header>
-				
 				<table style="align:center; vertical-align:top;">
 					<tr>
-					    <td style="align:center; vertical-align:top;">			
-					
+					    <td style="align:center; vertical-align:top;">
 					<div class="section" id="example">
 						<div class="single">
 						<a href="Atlassian/Jira.jpg" rel="lightbox"><img width="600" height="250" src="Atlassian/Jira.jpg" alt="Atlassian Jira" /></a>
 						</div>
 						</div>
-						
 						</td>
 					    <td  style="align:center; vertical-align:middle;">
 						<video id="player_a" class="projekktor" poster="media/intro.png" title="" width="200" height="150" controls>
@@ -566,17 +595,14 @@
                        <h4>A Typical GreenHopper Dashboard<em></em></h4>
                     </div>
                 </header>
-
                 <table style="align:center; vertical-align:top;">
 					<tr>
 					    <td style="align:center; vertical-align:top;">
-					
 					<div class="section" id="example">
 						<div class="single">
 						<a href="Atlassian/GreenHopper.jpg" rel="lightbox"><img width="600" height="250" src="Atlassian/GreenHopper.jpg" alt="Atlassian GreenHopper" /></a>
 						</div>
 						</div>
-					
 						</td>
 					    <td  style="align:center; vertical-align:middle;">
 						<video id="player_a" class="projekktor" poster="media/intro.png" title="" width="200" height="150" controls>
@@ -657,24 +683,20 @@
 					</section>
 				</section>
 				<section>
-					
 					<header>
                     <a href="http://www.amsoft.net/" target="_blank" class="logo"></a>
                     <div class="wrapper">
                        <h4>A Typical Fisheye Dashboard<em></em></h4>
                     </div>
                 </header>
-					
 					<table style="align:center; vertical-align:top;">
 					<tr>
 					    <td style="align:center; vertical-align:top;">
-					
 					<div class="section" id="example">
 						<div class="single">
 						<a href="Atlassian/Fisheye.jpg" rel="lightbox"><img width="600" height="250" src="Atlassian/Fisheye.jpg" alt="Atlassian Fisheye" /></a>
 						</div>
 						</div>
-					
 						</td>
 					    <td  style="align:center; vertical-align:middle;">
 						<video id="player_a" class="projekktor" poster="media/intro.png" title="" width="200" height="150" controls>
@@ -743,24 +765,20 @@
 					</section>
 				</section>
 				<section>
-					
 					<header>
                     <a href="http://www.amsoft.net/" target="_blank" class="logo"></a>
                     <div class="wrapper">
                        <h4>A Typical Crucible Dashboard<em></em></h4>
                     </div>
                 </header>
-					
 					<table style="align:center; vertical-align:top;">
 					<tr>
-					    <td style="align:center; vertical-align:top;">		
-					
+					    <td style="align:center; vertical-align:top;">
 					<div class="section" id="example">
 						<div class="single">
 						<a href="Atlassian/Crucible.jpg" rel="lightbox"><img width="600" height="250" src="Atlassian/Crucible.jpg" alt="Atlassian Crucible" /></a>
 						</div>
 						</div>
-			
 						</td>
 					    <td  style="align:center; vertical-align:middle;">
 						<video id="player_a" class="projekktor" poster="media/intro.png" title="" width="200" height="150" controls>
@@ -916,25 +934,20 @@
 				</section>
 		</section>
 				<section>
-					
 					<header>
                     <a href="http://www.amsoft.net/" target="_blank" class="logo"></a>
                     <div class="wrapper">
                        <h4>A Typical Bamboo Dashboard<em></em></h4>
                     </div>
-                </header>
-					
-					
+                </header>					
 					<table style="align:center; vertical-align:top;">
 					<tr>
 					    <td style="align:center; vertical-align:top;">
-					
 					<div class="section" id="example">
 						<div class="single">
 						<a href="Atlassian/Bamboo.jpg" rel="lightbox"><img width="600" height="250" src="Atlassian/Bamboo.jpg" alt="Atlassian Bamboo" /></a>
 						</div>
 						</div>
-				
 						</td>
 					    <td  style="align:center; vertical-align:middle;">
 						<video id="player_a" class="projekktor" poster="media/intro.png" title="" width="200" height="150" controls>
@@ -1007,24 +1020,20 @@
 					</section>
 				</section>
 				<section>
-					
 					<header>
                     <a href="http://www.amsoft.net/" target="_blank" class="logo"></a>
                     <div class="wrapper">
                        <h4>A Typical BitBucket Dashboard<em></em></h4>
                     </div>
                 </header>
-					
 					<table style="align:center; vertical-align:top;">
 					<tr>
 					    <td style="align:center; vertical-align:top;">
-					
 					<div class="section" id="example">
 						<div class="single">
 						<a href="Atlassian/BitBucket.jpg" rel="lightbox"><img width="600" height="250" src="Atlassian/BitBucket.jpg" alt="Atlassian BitBucket" /></a>
 						</div>
 						</div>
-					
 						</td>
 					    <td  style="align:center; vertical-align:middle;">
 						<video id="player_a" class="projekktor" poster="media/intro.png" title="" width="200" height="150" controls>
@@ -1261,6 +1270,59 @@ function linkify( selector ) {
 		<script src="js/jquery-ui-1.8.18.custom.min.js"></script>
         <script src="js/jquery.smooth-scroll.min.js"></script>
         <script src="js/lightbox.js"></script>
+		
+		<script type="text/javascript" src="js/jquery.slicebox.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				
+				var Page = (function() {
+
+					var $navArrows = $( '#nav-arrows' ).hide(),
+						$shadow = $( '#shadow' ).hide(),
+						slicebox = $( '#sb-slider' ).slicebox( {
+							onReady : function() {
+
+								$navArrows.show();
+								$shadow.show();
+
+							},
+							orientation : 'r',
+							cuboidsRandom : true,
+							disperseFactor : 30
+						} ),
+						
+						init = function() {
+
+							initEvents();
+							
+						},
+						initEvents = function() {
+
+							// add navigation events
+							$navArrows.children( ':first' ).on( 'click', function() {
+
+								slicebox.next();
+								return false;
+
+							} );
+
+							$navArrows.children( ':last' ).on( 'click', function() {
+								
+								slicebox.previous();
+								return false;
+
+							} );
+
+						};
+
+						return { init : init };
+
+				})();
+
+				Page.init();
+
+			});
+		</script>		
    <script>
   jQuery(document).ready(function($) {
       $('a').smoothScroll({
@@ -1328,6 +1390,6 @@ function linkify( selector ) {
 		            }, [b]onReadyFunc[/b]);
 	            );
         	});
-    </script>		
+    </script>	
 	</body>
 </html>
