@@ -1,7 +1,7 @@
 {
 	"name": "reveal.js-presentation",
-	"version": "3.0.0",
-	"description": "Atlassian Products Presentation using The HTML Presentation Framework by Hakim El Hattab",
+	"version": "5.0.0",
+	"description": "Atlassian Products Presentation",
 	"homepage": "http://github.com/dineshkummarc/reveal.js-presentation",
 	"author": {
 		"name": "Dinesh Kr. Choudhary",
