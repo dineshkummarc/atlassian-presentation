@@ -4,9 +4,8 @@ A presentation on Atlassian products jira, Confluence, Crucible, Bamboo, Bitbuck
 Framework named Lightbox2 by LOKESH DHAKAR, Header-Footer Design Framework named CSS-PSEUDO-ELEMENTS by ADOBE SYSTEMS and image Slider framework named Slicebox.
 
 Todo :-
-1. images should show up in an overlay
-2. video added should show the whole of the process (working of confluence, crucible, jira etc)
-3. addition of features for the perticular type in the form of text and image overlay.
+1. video added should show the whole of the process (working of confluence, crucible, jira etc)
+2. addition of features for the perticular type in the form of text and image overlay.
 
 ## Some thing more about Framework # CSS-PSEUDO-ELEMENTS
 
@@ -58,7 +57,6 @@ For more information:
 # reveal.js
 
 A framework for easily creating beautiful presentations using HTML. [Check out the live demo](http://lab.hakim.se/reveal-js/).
-
 reveal.js comes with a broad range of features including [nested slides](https://github.com/hakimel/reveal.js#markup), [markdown contents](https://github.com/hakimel/reveal.js#markdown), [PDF export](https://github.com/hakimel/reveal.js#pdf-export), [speaker notes](https://github.com/hakimel/reveal.js#speaker-notes) and a [JavaScript API](https://github.com/hakimel/reveal.js#api). It's best viewed in a browser with support for CSS 3D transforms but [fallbacks](https://github.com/hakimel/reveal.js/wiki/Browser-Support) are available to make sure your presentation can still be viewed elsewhere.
 
 #### More reading in the Wiki:
@@ -358,11 +356,9 @@ Then:
 2. Run ```npm install```
 3. Run ```node plugin/notes-server```
 
-
 ## Development Environment 
 
 reveal.js is built using the task-based command line build tool [grunt.js](http://gruntjs.com) ([installation instructions](https://github.com/gruntjs/grunt#installing-grunt)). With Node.js and grunt.js installed, you need to start by running ```npm install``` in the reveal.js root. When the dependencies have been installed you should run ```grunt watch``` to start monitoring files for changes.
-
 If you want to customise reveal.js without running grunt.js you can alter the HTML to point to the uncompressed source files (css/reveal.css & js/reveal.js).
 
 ### Folder Structure
@@ -374,7 +370,10 @@ If you want to customise reveal.js without running grunt.js you can alter the HT
 ## License
 
 MIT licensed
+- Copyright (C) 2011-2012 Hakim El Hattab, http://hakim.se <br/>
 
-Copyright (C) 2011-2012 Hakim El Hattab, http://hakim.se
-Copyright (C) 2012-2013 Dinesh Kr. Choudhary, http://www.github.com/dineshkummarc, http://www.doctor.co.in
+ERLS and/or DENNO SECQTINSTIEN FOUNDATION licensed
+- Copyright (C) 2012-2013 Dinesh Kr. Choudhary, http://www.github.com/dineshkummarc <br/>
+- Copyright (C) 2012-2013 Denno Secqtinstien, http://www.doctor.co.in
 
+Jira, Confluence, Crucible, Bamboo, Bitbucket etc are registered trade mark of Atlassian Company and other trademarks used are registered trademark of their respective authors.
