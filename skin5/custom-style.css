@@ -1,4 +1,6 @@
 
+/* css for css-pseudo-elements framework */
+
 h1{
         color: white;
         margin: 0;
@@ -37,7 +39,7 @@ h1{
         right: 32px;
         line-height: 200px;
         overflow: hidden;
-        background: url("images/amsoft1.jpg") top left no-repeat;
+        background: url("../images/amsoft1.jpg") top left no-repeat;
         box-shadow: 0 2px 2px rgba(0, 0, 0, .35);
     }
     header .logo:hover{
@@ -85,16 +87,15 @@ h1{
     }
 	
 	
-	
-	
-	
+	/* css for curtains framework */
+		
 	*{
 	    	margin:0;
 	    	padding:0;
 	    }
 	    body {
 	    	text-align: center;
-	    	background: #4f3722 url('images/darkcurtain.jpg') repeat-x;
+	    	background: #4f3722 url('../images/darkcurtain.jpg') repeat-x;
 	    }
 	    img{
 			border: none;
