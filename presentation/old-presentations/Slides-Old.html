@@ -1,0 +1,1394 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>The Atlassian Products for Project Management</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/default.css" id="theme">
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+		<!-- Declaring Projekktor -->
+		<!-- Load player theme -->
+        <link rel="stylesheet" href="theme/style.css" type="text/css" media="screen" />
+    <!-- Load jquery -->
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+    <!-- load projekktor -->
+        <script type="text/javascript" src="projekktor-1.2.02r134.min.js"></script>
+		<!-- Declaration ending for Projekktor -->
+		<!-- for lightbox2 declaration -->
+		<link rel="shortcut icon" type="image/ico" href="images/favicon.gif" />	
+	    <link rel="stylesheet" href="css/lightbox.css" type="text/css" media="screen" />
+		<!--light box ended -->
+		<!-- slice box -->
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/slicebox.css" />
+		<link rel="stylesheet" type="text/css" href="css/custom.css" />
+		<script type="text/javascript" src="js/modernizr.custom.46884.js"></script>
+		<!-- slice box ended-->
+		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+		<script>
+			document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+    <style type="text/css">
+    h1{
+        color: white;
+        margin: 0;
+        padding-right: 60px;
+        text-shadow: rgba(0, 0, 0, 0.347656) 0px 1px 2px;
+    }
+    h1 em{
+        display: block;
+        font: 0.55em / 1.5em normal;
+        color: #ccc;
+    }
+    h2{
+        margin: 60px 0 20px;
+        letter-spacing: -1px;
+    }
+    a{
+        color: #FA834B;
+    }
+    a:visited{
+        color: darkblue;
+    }
+    a:hover{  
+        color: black;
+        text-decoration: none;
+    }
+    header1{
+        background: #729ABD;
+        background: #5683ad;
+    }
+	header{
+        background:  #FA834B;
+        background:  #FA834B;
+    }
+    header .logo{
+        height: 62px;
+        width: 38px;
+        display: block;
+        position: absolute;
+        top: -1px;
+        right: 32px;
+        line-height: 200px;
+        overflow: hidden;
+        background: url("src/amsoft1.jpg") top left no-repeat;
+        box-shadow: 0 2px 2px rgba(0, 0, 0, .35);
+    }
+    header .logo:hover{
+        top: 0px;
+    }
+    .wrapper{
+        width: 90%;
+        margin: 0 auto;
+        padding: 25px 0;
+    }
+    header + .wrapper{
+        padding: 0 0 50px;
+
+    }
+    code{
+        background: #eee;
+        border: 1px solid #d7d7d7;
+        padding: 0 3px;
+    }     
+    #toc li+li{
+        margin: 5px 0 0 ;
+    }
+    .demos{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    .demos li{
+        padding: 0 0 5px;
+        margin: 0 0 30px;
+        border-bottom: 1px dashed #d7d7d7;
+    }
+    .demos li:last-child{
+        border: none;
+        margin: 0 0 0;     
+    }
+    @media all and (min-width: 640px){
+         .wrapper{
+             padding: 50px 0;
+             width: 600px;
+         }
+         header .logo{
+             right: 52px;
+         }
+    }
+    </style>		
+	</head>
+	<body>
+		<div class="reveal">
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h1>Atlassian</h1>
+					<h3>The Atlassian Products for Project Management</h3>
+					<p>
+						<small>Created by <a href="#">Dinesh Kumar</a> / <a href="http://www.amsoft.net">Amsoft Systems</a></small><br/>
+						<img width="50" height="50" src="img/arrow-right.png" alt="right arrow" />
+					</p>
+				</section>
+				<section>
+					<h2>Heads Up</h2>
+					<p>
+					Jira is a software Product by a sydney based company named Atlassian. The Atlassian products are targeted at programmers working with a code base. Atlassian is particularly well known for focusing on serving Agile software development, as well as practicing Agile itself. Atlassian has been described as an <a>enterprise social software</a> vendor.
+						<!-- Confluence is the enterprise wiki designed to make it easy for you and your team to share information with each other, and with the world. -->
+						<br/><img width="50" height="50" src="img/arrow-right.png" alt="right arrow" />
+					</p>
+					<aside class="notes">
+						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
+					</aside>
+				</section>
+                <section>
+						<h2>Why to use Atlassian Products</h2>
+						<p><a>Question</a> : I am a startup with a little budget and estimates for planning future, and has a setup of 10-12 employees.</p>
+						<br/><img width="50" height="50" src="img/arrow-right.png" alt="down arrow" />
+					</section>
+				<!-- Example of nested vertical slides -->
+				<section>
+					<section>
+						<h2>Why to use Atlassian : Continued</h2>						
+				<div class="container">
+			       <div class="wrapper">
+				<ul id="sb-slider" class="sb-slider">
+					<li>
+						<a class="Confluence" href="#"><img src="pricing/1-pricing-confluence.jpg" alt="Confluence"/></a>
+						<div class="sb-description">
+							<h3>Confluence Pricing</h3>
+						</div>
+					</li>
+					<li>
+						<a class="Confluence" href="#"><img src="pricing/2-pricing-jira.jpg" alt="Jira"/></a>
+						<div class="sb-description">
+							<h3>Jira Pricing</h3>
+						</div>
+					</li>
+					<li>
+						<a class="Confluence" href="#"><img src="pricing/3-pricing-greenhopper.jpg" alt="Greenhopper"/></a>
+						<div class="sb-description">
+							<h3>GreenHopper Pricing</h3>
+						</div>
+					</li>
+					<li>
+						<a class="Confluence" href="#"><img src="pricing/4-pricing-fisheye.jpg" alt="fisheye"/></a>
+						<div class="sb-description">
+							<h3>Fisheye Pricing</h3>
+						</div>
+					</li>
+					<li>
+						<a class="Confluence" href="#"><img src="pricing/5-pricing-crucible.jpg" alt="Crucible"/></a>
+						<div class="sb-description">
+							<h3>Crucible Pricing</h3>
+						</div>
+					</li>
+					<li>
+						<a class="Confluence" href="#"><img src="pricing/6-pricing-bamboo.jpg" alt="Bamboo"/></a>
+						<div class="sb-description">
+							<h3>Bamboo Pricing</h3>
+						</div>
+					</li>
+					<li>
+						<a class="Confluence" href="#"><img src="pricing/7-pricing-bitbucket.jpg" alt="Bitbucket"/></a>
+						<div class="sb-description">
+							<h3>Bitbucket Pricing</h3>
+						</div>
+					</li>
+				</ul>
+				<div id="nav-arrows" class="nav-arrows">
+					<a href="#">Next</a><a href="#">Previous</a>
+				</div>
+			</div><!-- /wrapper -->
+			<p>Atlassian produces agile development tools, including the</p>
+						<img width="50" height="50" src="img/arrow-below.png" alt="down arrow" />
+		</div>
+					</section>
+					<section>
+						<!-- <h2>Product One</h2> -->
+						<p><a>Enterprise wiki (Confluence)</a>
+						<br/><img src="Atlassian/Confluence.jpg" alt="Atlassian Confluence">
+						</p>
+						<img width="50" height="50" src="img/arrow-below.png" alt="down arrow" />
+					</section>
+					<section>
+						<!-- <h2>Product two</h2> -->
+						<p><a>Bug tracker (JIRA)</a>
+						<br/><img src="Atlassian/jira.jpg" alt="Atlassian Jira">
+						</p>
+						<img width="50" height="50" src="img/arrow-below.png" alt="down arrow" />
+					</section>
+					<section>
+						<!-- <h2>Product three</h2> -->
+						<p><a>An agile project management tool (GreenHopper)</a>
+                        <img src="Atlassian/greenhopper.jpg" alt="Atlassian Greenhopper">
+						</p>
+						<img width="50" height="50" src="img/arrow-below.png" alt="down arrow" />
+					</section>
+					<section>
+						<!-- <h2>Product four</h2> -->
+						<p><a>A source code insight tool (FishEye)</a>
+                        <img height="450" src="Atlassian/fisheye.jpg" alt="Atlassian FishEye">
+						</p>
+						<img width="50" height="50" src="img/arrow-below.png" alt="down arrow" />
+					</section>
+					<section>
+						<!-- <h2>Product five</h2> -->
+						<p><a>A code review tool (Crucible)</a>
+						<br/><img src="Atlassian/crucible.jpg" alt="Atlassian Crucible">
+						</p>
+						<img width="50" height="50" src="img/arrow-below.png" alt="down arrow" />
+					</section>
+					<section>
+					<!-- <h2>Product six</h2> -->
+					<p><a>A continuous integration server (Bamboo)</a>
+					<br/><img height="500" src="Atlassian/bamboo.jpg" alt="Atlassian Bamboo">
+					</p>
+					<img width="50" height="50" src="img/arrow-below.png" alt="down arrow" />
+					</section>
+					<section>
+					<!-- <h2>Product six</h2> -->
+					<p><a>Unlimited Git Code Hosting (Bitbucket.Org)</a>
+					<br/><img height="500" src="Atlassian/bitbucket.jpg" alt="Atlassian Bitbucket">
+					</p>
+					<img width="50" height="50" src="img/arrow-below.png" alt="down arrow" />
+					</section>
+					<section>
+					<!-- <h2>Other Products</h2> -->
+					<p>And many more products like.<ol>
+							<li class="fragment">Exploratory testing for agile teams (BonFire)</li>
+							<li class="fragment">Team Calenders</li>
+							<li class="fragment">Connects Confluence to Sharepoint Server (SharePoint Connector)</li>
+							<li class="fragment">Group Chat Application (HipChat)</li>
+							<li class="fragment">Enterprise Git Repo Management (Stash)</li>
+							<li class="fragment">Java Code Coverage (Clover)</li>
+						</ol></p> 
+					<br/><img width="50" height="50" src="img/arrow-below.png" alt="down arrow" />
+					</section>
+					<section>
+				<p>And Other 1800+ Plugins, which comes under following categories<ol>
+					        <li class="fragment">Requirements</li>
+							<li class="fragment">JIRA Importers</li>
+							<li class="fragment">Source Code & Version Control</li>
+							<li class="fragment">Gadgets</li>
+							<li class="fragment">Image, Visualization & Reporting</li>
+							<li class="fragment">Document Management</li>
+							<li class="fragment">Bamboo Tasks</li>
+							<li class="fragment">Collaboration</li>
+						</ol></p> 
+					<br/><img width="50" height="50" src="img/arrow-right.png" alt="right arrow" />
+               	</section>
+				</section>
+<!-- Starting Confluence -->
+				<section>
+					<h2>Confluence : Point of View</h2>
+					<p><a>Confluence</a> is the enterprise wiki designed to make it easy for you and your team to share information with each other, and with the world.<br/><img width="50" height="50" src="img/arrow-right.png" alt="right arrow" />
+					</p>
+				</section>
+				<section>
+					<section><h2>Confluence : Features</h2>
+					<p><a>For Wiki Users</a><ol>
+					        <li class="fragment">Get More Done, Together</li>
+							<li class="fragment">Content & Team Collaboration Made Easy</li>
+							<li class="fragment">Capture Knowledge in One Place</li>
+							<li class="fragment">Get Out of Your Email Inbox</li>
+							<li class="fragment">Reach Decisions Faster</li>
+						</ol></p> 
+					<br/><img width="50" height="50" src="img/arrow-below.png" alt="down arrow" />
+					</section>
+					<section><h2>Confluence : Features</h2>
+					<p><a>The HighLight Reel</a><ol>
+					        <li class="fragment">Faster, Smarter Editor</li>
+							<li class="fragment">Team and Personal Tasks</li>
+							<li class="fragment">Quick Sharing, Social Mentions</li>
+							<li class="fragment">Real-Time Notifications</li>
+							<li class="fragment">Mobile Ready</li>
+							<li class="fragment">Fast, Predictive Search</li>
+							<li class="fragment">Enterprise-Grade Permissions</li>
+						</ol></p> 
+					<br/><img width="50" height="50" src="img/arrow-below.png" alt="down arrow" />
+					</section>
+					<section><h2>Confluence : Features</h2>
+					<p><a>For Jira Users</a><ol>
+					        <li class="fragment">Fast Issue Creation</li>
+							<li class="fragment">Quick Issue Reporting</li>
+							<li class="fragment">Automatic Issue Linking</li>
+							<li class="fragment">Embed Content, Both Ways</li>
+							<li class="fragment">Plan Leave & Track Projects</li>
+							<li class="fragment">Centralize User Management</li>
+						</ol></p><br/><img width="50" height="50" src="img/arrow-below.png" alt="down arrow" />
+					</section>
+					<section><h2>Confluence : Features</h2>
+					<p><a>For Development Teams</a><ol>
+					        <li class="fragment">Define Specs, Together</li>
+							<li class="fragment">Visualize Your Specs</li>
+							<li class="fragment">Publish Product Docs</li>
+							<li class="fragment">Collaborate on JIRA Issues</li>
+							<li class="fragment">Share Code Snippets</li>
+							<li class="fragment">Plan Sprints</li>
+						</ol></p><br/><img width="50" height="50" src="img/arrow-below.png" alt="down arrow" />
+					</section>
+					<section><h2>Confluence : Features</h2>
+					<p><a>For Technical Writers</a><ol>
+					        <li class="fragment">Review Drafts & Edits</li>
+							<li class="fragment">Structure & Re-use Documentation</li>
+							<li class="fragment">Single Source Publishing</li>
+							<li class="fragment">Make Your Documentation Public</li>
+							<li class="fragment">Popular Add-ons</li>
+						</ol></p><br/><img width="50" height="50" src="img/arrow-below.png" alt="down arrow" />
+					</section>
+					<section><h2>Confluence : Features</h2>
+					<p><a>Enterprise Ready Architecture</a><ol>
+					        <li class="fragment">Sync with Active Directory</li>
+							<li class="fragment">Connect with Office & SharePoint</li>
+							<li class="fragment">Keep Your Private Parts Private</li>
+						</ol></p><br/><img width="50" height="50" src="img/arrow-below.png" alt="down arrow" />
+					</section>
+					<section><h2>Confluence : Features</h2>
+					<p><a>Extend with Addons</a><ol>
+					        <li class="fragment">Choose From 400+ Add-ons</li>
+							<li class="fragment">Featured Add-ons
+						<p>
+							<ol>
+							<li class="fragment">Balsamiq, Google Docs</li>
+							<li class="fragment">Jira Calender, Pdf Export</li>
+							<li class="fragment">MS Office Tools etc</li>
+							</ol>
+						</p>
+						</li>
+						<li class="fragment">Build Your Own Add-ons</li>
+						</ol></p><br/><img width="50" height="50" src="img/arrow-right.png" alt="right arrow" />
+					</section>
+				</section>
+				<section>
+				<header>
+                    <a href="http://www.amsoft.net/" target="_blank" class="logo"></a>
+                    <div class="wrapper">
+                       <h4>A Typical Confluence Dashboard <em></em></h4>
+                    </div>
+                </header>
+					<table style="align:center; vertical-align:top;">
+					<tr>
+					    <td style="align:center; vertical-align:top;">
+						<div class="section" id="example">
+						<div class="single">
+						<a href="Atlassian/Confluence.jpg" rel="lightbox"><img width="600" height="250" src="Atlassian/Confluence.jpg" alt="Atlassian Confluence" /></a>
+						<a href="Atlassian/new_page.jpg" rel="lightbox"><img width="600" height="250" src="Atlassian/new_page.jpg" alt="Atlassian Confluence - Create a new Page" /></a>
+						</div>
+						</div>
+						</td>
+					    <td  style="align:center; vertical-align:middle;">
+						<video id="player_a" class="projekktor" poster="media/intro.png" title="" width="200" height="150" controls>
+                               <source src="media/intro.ogv" type="video/ogg" />
+                               <source src="media/intro.mp4" type="video/mp4" />
+                               <source src="media/intro.webm" type="video/webm" />
+                         </video>
+						</td>
+					</tr>
+                    <tr><td><p>
+					    <img width="50" height="50" src="img/arrow-right.png" alt="right arrow" /></p></td>
+					</tr>					
+					</table>					
+				</section>
+<!-- Ending Confluence -->
+<!-- Jira -->
+				<section>
+					<h2>Jira : Point of View</h2>
+					<p><a>Jira</a> is a proprietary issue tracking product, commonly used for bug tracking, issue tracking, and project management. The product name, JIRA, is not an acronym but rather a truncation of "Gojira", the Japanese name for Godzilla.
+					<br/><img width="50" height="50" src="img/arrow-right.png" alt="right arrow" />
+					</p>
+				</section>
+				<section>
+					<section><h2>Jira : Features</h2>
+					<p><a>Why Jira</a><ol>
+					        <li class="fragment">Because you have issues</li>
+							<li class="fragment">Your process is everything</li>
+							<li class="fragment">Plan the work, work the plan</li>
+							<li class="fragment">Focus the team on the job at hand</li>
+							<li class="fragment">Don't be the last to know</li>
+						</ol></p> 
+					<br/><img width="50" height="50" src="img/arrow-below.png" alt="down arrow" />
+					</section>
+					<section><h2>Jira : Features</h2>
+					<p><a>The HighLight Reel</a><ol>
+					        <li class="fragment">Brilliantly Simple to Use</li>
+							<li class="fragment">Track Anything and Everything</li>
+							<li class="fragment">Manage Your Application Life Cycle</li>
+							<li class="fragment">Plan Agile Development</li>
+							<li class="fragment">Configure Your Own Workflow</li>
+							<li class="fragment">Link Issues to Source Code</li>
+							<li class="fragment">Connect to Anything</li>
+							<li class="fragment">Advanced Search and Reporting</li>
+							<li class="fragment">Kick-start User Adoption</li>
+						</ol></p> 
+					<br/><img width="50" height="50" src="img/arrow-below.png" alt="down arrow" />
+					</section>
+					<section><h2>Jira : Features</h2>
+					<p><a>Bug & Issue Tracking</a><ol>
+					        <li class="fragment">Lightning-Fast Bug Tracking</li>
+							<li class="fragment">Your Personal Dashboard</li>
+							<li class="fragment">Web Application Testing</li>
+							<li class="fragment">Embed Content, Both Ways</li>
+							<li class="fragment">Capture Feedback</li>
+							<li class="fragment">Collect Mobile Feedback</li>
+							<li class="fragment">Pre-built Project Reporting</li>
+							<li class="fragment">Import Your Legacy Bug Tracker</li>
+						</ol></p><br/><img width="50" height="50" src="img/arrow-below.png" alt="down arrow" />
+					</section>
+					<section><h2>Jira : Features</h2>
+					<p><a>Project Tracking</a><ol>
+					        <li class="fragment">Issue are everywhere</li>
+							<li class="fragment">Customize Workflow To Fit Your Team</li>
+							<li class="fragment">Power Your Project Wiki</li>
+							<li class="fragment">Project Reports and Dashboards</li>
+							<li class="fragment">Stay Connected</li>
+							<li class="fragment">Popular JIRA Add-ons</li>
+						</ol></p><br/><img width="50" height="50" src="img/arrow-below.png" alt="down arrow" />
+					</section>
+					<section><h2>Jira : Features</h2>
+					<p><a>Code Integration</a><ol>
+					        <li class="fragment">Git Behind the Firewall</li>
+							<li class="fragment">Code in the Cloud</li>
+							<li class="fragment">Build Notifications and Release Management</li>
+							<li class="fragment">Encourage Code Review</li>
+							<li class="fragment">Link Every Line of Code</li>
+						</ol></p><br/><img width="50" height="50" src="img/arrow-below.png" alt="down arrow" />
+					</section>
+					<section><h2>Jira : Features</h2>
+					<p><a>Reporting & Analysis</a><ol>
+					        <li class="fragment">Access important issues</li>
+							<li class="fragment">Keep the team in sync</li>
+							<li class="fragment">Stay connected</li>
+							<li class="fragment">JIRA Query Language (JQL)</li>
+							<li class="fragment">Quickly Generate Project Reports</li>
+							<li class="fragment">Build and Share Dashboards</li>
+						</ol></p><br/><img width="50" height="50" src="img/arrow-below.png" alt="down arrow" />
+					</section>
+					<section><h2>Jira : Features</h2>
+					<p><a>Custom Workflow</a><ol>
+					        <li class="fragment">Customize Workflows To Fit Your Projects</li>
+							<li class="fragment">Visualize Your Workflow
+							<li class="fragment">Control Your Workflow</li>
+							<li class="fragment">Popular JIRA Add-ons</li>
+						</ol></p><br/><img width="50" height="50" src="img/arrow-right.png" alt="right arrow" />
+					</section>
+					<section><h2>Jira : Features</h2>
+					<p><a>Extend with Addons</a><ol>
+					        <li class="fragment">Choose From 400+ Add-ons</li>
+							<li class="fragment">Featured Add-ons
+						<p>
+							<ol>
+							<li class="fragment">Balsamiq, VertygoSLA</li>
+							<li class="fragment">Zephyr , Jira Client</li>
+							<li class="fragment">Tempo, Table Grid Editor etc</li>
+							</ol>
+						</p>
+						</li>
+						<li class="fragment">Build Your Own Add-ons</li>
+						</ol></p><br/><img width="50" height="50" src="img/arrow-right.png" alt="right arrow" />
+					</section>
+				</section>
+				<section>
+					<header>
+                    <a href="http://www.amsoft.net/" target="_blank" class="logo"></a>
+                    <div class="wrapper">
+                       <h4>A Typical Jira Dashboard<em></em></h4>
+                    </div>
+                </header>
+				<table style="align:center; vertical-align:top;">
+					<tr>
+					    <td style="align:center; vertical-align:top;">
+					<div class="section" id="example">
+						<div class="single">
+						<a href="Atlassian/Jira.jpg" rel="lightbox"><img width="600" height="250" src="Atlassian/Jira.jpg" alt="Atlassian Jira" /></a>
+						</div>
+						</div>
+						</td>
+					    <td  style="align:center; vertical-align:middle;">
+						<video id="player_a" class="projekktor" poster="media/intro.png" title="" width="200" height="150" controls>
+                               <source src="media/intro.ogv" type="video/ogg" />
+                               <source src="media/intro.mp4" type="video/mp4" />
+                               <source src="media/intro.webm" type="video/webm" />
+                         </video>
+						</td>
+					</tr>
+                    <tr><td><p>
+					    <img width="50" height="50" src="img/arrow-right.png" alt="right arrow" /></p></td>
+					</tr>					
+					</table>					
+				</section>
+<!-- Ending Jira -->
+<!-- GreenHopper -->
+				<section>
+					<h2>GreenHopper : Point of View</h2>
+					<p><a>GreenHopper</a> is the agile project Management Addon to Jira.<br/><img width="50" height="50" src="img/arrow-right.png" alt="right arrow" />
+					</p>
+				</section>
+				<section>
+					<section><h2>GreenHopper : Features</h2>
+					<p><a>The HighLight Reel</a><ol>
+					        <li class="fragment">Project Planning Your Way</li>
+							<li class="fragment">Quickly Build a Backlog</li>
+							<li class="fragment">Order the Backlog</li>
+							<li class="fragment">Estimate with Ease</li>
+							<li class="fragment">Visually Update Progress</li>
+							<li class="fragment">Plus the Power of JIRA</li>
+							<li class="fragment">Continuous Improvement</li>
+						</ol></p> 
+					<br/><img width="50" height="50" src="img/arrow-below.png" alt="down arrow" />
+					</section>
+					<section><h2>GreenHopper : Features</h2>
+					<p><a>Scrum</a><ol>
+					        <li class="fragment">Principles of Scrum</li>
+							<li class="fragment">Backlog Grooming</li>
+							<li class="fragment">Sprint Planning</li>
+							<li class="fragment">Visualise Sprint Progress</li>
+							<li class="fragment">Burndown Chart</li>
+							<li class="fragment">Sprint Retrospectives</li>
+							<li class="fragment">Scrum + Kanban = Scrumban</li>
+						</ol></p> 
+					<br/><img width="50" height="50" src="img/arrow-below.png" alt="down arrow" />
+					</section>
+					<section><h2>GreenHopper : Features</h2>
+					<p><a>Kanban</a><ol>
+					        <li class="fragment">Principles of Kanban</li>
+							<li class="fragment">Visualize Your Workflow</li>
+							<li class="fragment">Horizontal Swimlanes</li>
+							<li class="fragment">Limit Work In Progress</li>
+							<li class="fragment">Measure Cycle Time</li>
+							<li class="fragment">Analyze Trends</li>
+						</ol></p><br/><img width="50" height="50" src="img/arrow-below.png" alt="down arrow" />
+					</section>
+					<section><h2>GreenHopper : Features</h2>
+					<p><a>Jira TurboCharged</a><ol>
+					        <li class="fragment">JIRA's Better Half</li>
+							<li class="fragment">Story and Source Linking</li>
+							<li class="fragment">Connect to Anything</li>
+							<li class="fragment">Advanced Search and Reporting</li>
+						</ol></p><br/><img width="50" height="50" src="img/arrow-below.png" alt="down arrow" />
+					</section>
+					<section><h2>GreenHopper : Features</h2>
+					<p><a>Installation & integrations</a><ol>
+					        <li class="fragment">Feed Your Agile Wallboard</li>
+							<li class="fragment">Prevent Team Stress</li>
+							<li class="fragment">Boost Quality with Bonfire</li>
+							<li class="fragment">Create a Team Calendar</li>
+							<li class="fragment">Integrate with Your Plugin</li>
+							<li class="fragment">Simple Installation</li>
+						</ol></p><br/><img width="50" height="50" src="img/arrow-right.png" alt="right arrow" />
+					</section>
+				</section>
+				<section>
+					
+				<header>
+                    <a href="http://www.amsoft.net/" target="_blank" class="logo"></a>
+                    <div class="wrapper">
+                       <h4>A Typical GreenHopper Dashboard<em></em></h4>
+                    </div>
+                </header>
+                <table style="align:center; vertical-align:top;">
+					<tr>
+					    <td style="align:center; vertical-align:top;">
+					<div class="section" id="example">
+						<div class="single">
+						<a href="Atlassian/GreenHopper.jpg" rel="lightbox"><img width="600" height="250" src="Atlassian/GreenHopper.jpg" alt="Atlassian GreenHopper" /></a>
+						</div>
+						</div>
+						</td>
+					    <td  style="align:center; vertical-align:middle;">
+						<video id="player_a" class="projekktor" poster="media/intro.png" title="" width="200" height="150" controls>
+                               <source src="media/intro.ogv" type="video/ogg" />
+                               <source src="media/intro.mp4" type="video/mp4" />
+                               <source src="media/intro.webm" type="video/webm" />
+                         </video>
+						</td>
+					</tr>
+                    <tr><td><p>
+					    <img width="50" height="50" src="img/arrow-right.png" alt="right arrow" /></p></td>
+					</tr>					
+					</table>
+				</section>
+<!-- Ending GreenHopper -->
+<!-- Fisheye -->
+				<section>
+					<h2>Fisheye : Point of View</h2>
+					<p><a>Fisheye : </a> finding the history of a file is easy enough, but what about the history of a project? Which branch did you commit your fix to? Did a file get accidentally deleted? FishEye knows everything about your code: search out source code artifacts, integrate with JIRA, and browse commits, files, revisions, or people.
+					<br/><img width="50" height="50" src="img/arrow-right.png" alt="right arrow" />
+					</p>
+				</section>
+				<section>
+					<section><h2>Fisheye : Features</h2>
+					<p><a>The HighLight Reel</a><ol>
+					        <li class="fragment">Browse Source</li>
+							<li class="fragment">Search Code</li>
+							<li class="fragment">Visualize Projects and Source</li>
+							<li class="fragment">Integrate and Connect</li>
+						</ol></p> 
+					<br/><img width="50" height="50" src="img/arrow-below.png" alt="down arrow" />
+					</section>
+					<section><h2>Fisheye : Features</h2>
+					<p><a>Browse Source</a><ol>
+					        <li class="fragment">Browser-based Diffs</li>
+							<li class="fragment">File Views</li>
+							<li class="fragment">Revision Details</li>
+							<li class="fragment">Filter Branches and Tags</li>
+						</ol></p> 
+					<br/><img width="50" height="50" src="img/arrow-below.png" alt="down arrow" />
+					</section>
+					<section><h2>Fisheye : Features</h2>
+					<p><a>Code Search</a><ol>
+					        <li class="fragment">Find Anything Fast</li>
+							<li class="fragment">Code It, Find It</li>
+							<li class="fragment">Link to Any Artifact</li>
+						</ol></p><br/><img width="50" height="50" src="img/arrow-below.png" alt="down arrow" />
+					</section>
+					<section><h2>Fisheye : Features</h2>
+					<p><a>Monitor & Analyze</a><ol>
+					        <li class="fragment">Activity Streams</li>
+							<li class="fragment">Real-Time Notifications</li>
+							<li class="fragment">Charts and Reports</li>
+							<li class="fragment">People</li>
+						</ol></p><br/><img width="50" height="50" src="img/arrow-below.png" alt="down arrow" />
+					</section>
+					<section><h2>Fisheye : Features</h2>
+					<p><a>Jira Integration</a><ol>
+					        <li class="fragment">Issues + Source</li>
+							<li class="fragment">Development Traceability</li>
+							<li class="fragment">Real Time Dev Activity</li>
+							<li class="fragment">Smart Commits</li>
+						</ol></p><br/><img width="50" height="50" src="img/arrow-below.png" alt="down arrow" />
+					</section>
+					<section><h2>Fisheye : Features</h2>
+					<p><a>Software Development</a><ol>
+					        <li class="fragment">The Development Process</li>
+							<li class="fragment">Releasing Software</li>
+							<li class="fragment">Development Forensics</li>
+						</ol></p><br/><img width="50" height="50" src="img/arrow-below.png" alt="down arrow" />
+					</section>
+					<section><h2>Fisheye : Features</h2>
+					<p><a>Enterprise DVCS</a><ol>
+					        <li class="fragment">Mercurial & Git Support</li>
+							<li class="fragment">Ease the Migration
+							<li class="fragment">Commit Graph</li>
+						</ol></p><br/><img width="50" height="50" src="img/arrow-right.png" alt="right arrow" />
+					</section>
+				</section>
+				<section>
+					<header>
+                    <a href="http://www.amsoft.net/" target="_blank" class="logo"></a>
+                    <div class="wrapper">
+                       <h4>A Typical Fisheye Dashboard<em></em></h4>
+                    </div>
+                </header>
+					<table style="align:center; vertical-align:top;">
+					<tr>
+					    <td style="align:center; vertical-align:top;">
+					<div class="section" id="example">
+						<div class="single">
+						<a href="Atlassian/Fisheye.jpg" rel="lightbox"><img width="600" height="250" src="Atlassian/Fisheye.jpg" alt="Atlassian Fisheye" /></a>
+						</div>
+						</div>
+						</td>
+					    <td  style="align:center; vertical-align:middle;">
+						<video id="player_a" class="projekktor" poster="media/intro.png" title="" width="200" height="150" controls>
+                               <source src="media/intro.ogv" type="video/ogg" />
+                               <source src="media/intro.mp4" type="video/mp4" />
+                               <source src="media/intro.webm" type="video/webm" />
+                         </video>
+						</td>
+					</tr>
+                    <tr><td><p>
+					    <img width="50" height="50" src="img/arrow-right.png" alt="right arrow" /></p></td>
+					</tr>					
+					</table>
+				</section>
+<!-- Ending Fisheye -->
+<!-- Crucible -->
+				<section>
+					<h2>Crucible : Point of View</h2>
+					<p><a>Crucible : </a>Code review helps ship better code. The benefits of code review are great, but the practice can be painful. Crucible takes the pain away.
+					<br/><img width="50" height="50" src="img/arrow-right.png" alt="right arrow" />
+					</p>
+				</section>
+				<section>
+					<section><h2>Crucible : Features</h2>
+					<p><a>The HighLight Reel</a><ol>
+					        <li class="fragment">Review</li>
+							<li class="fragment">Discuss</li>
+							<li class="fragment">No Meetings Required</li>
+							<li class="fragment">Distributed Teams</li>
+							<li class="fragment">JIRA Integration and More</li>
+						</ol></p> 
+					<br/><img width="50" height="50" src="img/arrow-below.png" alt="down arrow" />
+					</section>
+					<section><h2>Crucible : Features</h2>
+					<p><a>Review AnyWhere</a><ol>
+					        <li class="fragment">Light-weight, Formal Reviews</li>
+							<li class="fragment">Ad-hoc Reviews</li>
+							<li class="fragment">Code Discussions</li>
+							<li class="fragment">Real-time and Never Outdated</li>
+						</ol></p> 
+					<br/><img width="50" height="50" src="img/arrow-below.png" alt="down arrow" />
+					</section>
+					<section><h2>Crucible : Features</h2>
+					<p><a>Code Quality</a><ol>
+					        <li class="fragment">Traceability</li>
+							<li class="fragment">Share Best Practices</li>
+							<li class="fragment">Review Coverage</li>
+						</ol></p><br/><img width="50" height="50" src="img/arrow-below.png" alt="down arrow" />
+					</section>
+					<section><h2>Crucible : Features</h2>
+					<p><a>Jira Integration</a><ol>
+					        <li class="fragment">Issues to Reviews, Reviews to Issues</li>
+							<li class="fragment">Turn Comments into Issues</li>
+							<li class="fragment">Visibility</li>
+							<li class="fragment">JIRA Workflow</li>
+							<li class="fragment">Transition JIRA issues from Crucible</li>
+						</ol></p><br/><img width="50" height="50" src="img/arrow-below.png" alt="down arrow" />
+					</section>
+					<section><h2>Crucible : Features</h2>
+					<p><a>Notifications & Reports</a><ol>
+					        <li class="fragment">Notifications</li>
+							<li class="fragment">Review Reminders</li>
+							<li class="fragment">Dashboards & Reports</li>
+							<li class="fragment">Audit & Compliance</li>
+						</ol></p><br/><img width="50" height="50" src="img/arrow-right.png" alt="down right" />
+					</section>
+				</section>
+				<section>
+					<header>
+                    <a href="http://www.amsoft.net/" target="_blank" class="logo"></a>
+                    <div class="wrapper">
+                       <h4>A Typical Crucible Dashboard<em></em></h4>
+                    </div>
+                </header>
+					<table style="align:center; vertical-align:top;">
+					<tr>
+					    <td style="align:center; vertical-align:top;">
+					<div class="section" id="example">
+						<div class="single">
+						<a href="Atlassian/Crucible.jpg" rel="lightbox"><img width="600" height="250" src="Atlassian/Crucible.jpg" alt="Atlassian Crucible" /></a>
+						</div>
+						</div>
+						</td>
+					    <td  style="align:center; vertical-align:middle;">
+						<video id="player_a" class="projekktor" poster="media/intro.png" title="" width="200" height="150" controls>
+                               <source src="media/intro.ogv" type="video/ogg" />
+                               <source src="media/intro.mp4" type="video/mp4" />
+                               <source src="media/intro.webm" type="video/webm" />
+                         </video>
+						</td>
+					</tr>
+                    <tr><td><p>
+					    <img width="50" height="50" src="img/arrow-right.png" alt="right arrow" /></p></td>
+					</tr>					
+					</table>
+				</section>
+<!-- Ending Crucible -->
+<!-- Bamboo -->
+				<section>
+					<h2>Bamboo : Point of View</h2>
+					<p><a>Bamboo</a> is the Continuous Integration and Release Management tool. 
+					Any build server can mindlessly run your builds over and over. 
+					Go further with automated building, testing, deploying, and releasing of your software.
+					Instantly scale with automatically managed agents that run on-premises or in the cloud. 
+					Integrate with JIRA to create a complete release workflow or work with Bamboo directly from your IDE.	
+					<br/><img width="50" height="50" src="img/arrow-right.png" alt="right arrow" />
+					</p>
+				</section>
+		<section>
+				<section><h2>Bamboo : Features</h2>
+					<p><a>The HighLight Reel</a><ol>
+					    <li class="fragment">Integrate Continuously</li>
+						<li class="fragment">Extend Your Builds</li>
+						<li class="fragment">Create a Continuous Delivery Pipeline</li>
+						<li class="fragment">Keep the Build Green</li>
+						<li class="fragment">Link with JIRA Issues</li>
+						<li class="fragment">Release Management</li>
+					</ol></p>
+						<br/><br/><img width="50" height="50" src="img/arrow-below.png" alt="down arrow" />
+				</section>
+				<section><h2>Bamboo : Features</h2>
+					<p><a>Beyond Build Automation</a><ol>
+					    <li class="fragment">Your Current Tools, Only Better</li>
+						<li class="fragment">Source Control<p><ol>
+							<li class="fragment">Subversion, Git, Mercurial, CVS and Perforce</li>
+						</ol></p></li>
+						<li class="fragment">Build Tools<p><ol>
+							<li class="fragment">including Maven (1, 2 & 3), Ant, .Net, Make and command line tools</li>
+						</ol></p></li>
+						<li class="fragment">Test Automation<p><ol>
+							<li class="fragment">with any tool with xUnit output - jUnit, Selenium, PHPUnit</li>
+						</ol></p></li>
+						<li class="fragment">Code Quality<p><ol>
+							<li class="fragment">tools such as Sonar and Atlassian's Clover</li>
+						</ol></p></li>
+						<li class="fragment">Beyond Compile & Test</li>
+						<li class="fragment">Build Pipeline</li>
+						<li class="fragment">Adapt on the Fly</li>
+					</ol></p>
+						<br/><br/><img width="50" height="50" src="img/arrow-below.png" alt="down arrow" />
+				</section>
+				<section><h2>Bamboo : Features</h2>
+					<p><a>Instant Feedback</a><ol>
+					    <li class="fragment">Real-Time Notifications</li>
+						<li class="fragment">Grok Your Build Results<p><ol>
+							<li class="fragment">Test Summary, Code Changes, Jira Issues, Branch integration Details, Comments</li>
+						</ol></p></li>
+						<li class="fragment">Stay in Your IDE<p><ol>
+							<li class="fragment">Atlassian Connectors for Eclipse, Visual Studio, and IntelliJ IDEA integrate with Bamboo directly from your IDE.</li>
+						</ol></p></li>
+						<li class="fragment">Dig Deeper<p><ol>
+							<li class="fragment">Detailed Test Results, Full Build Logs, Side By Side Diffs</li>
+						</ol></p></li>
+						<li class="fragment">Metrics and Reporting<p><ol>
+							<li class="fragment">Build Duration, Failed Tests, Avg. Fix Time, Build Queue Duration, Per Author Statistics</li>
+						</ol></p></li>
+					</ol></p>
+						<br/><br/><img width="50" height="50" src="img/arrow-below.png" alt="down arrow" />
+				</section>
+				<section><h2>Bamboo : Features</h2>
+					<p><a>Scaling Up</a><ol>
+					    <li class="fragment">Distributed Builds</li>
+						<li class="fragment">Elastic Agents</li>
+						<li class="fragment">Automatic Agent Management</li>
+						<li class="fragment">Collaborate on JIRA Issues</li>
+					</ol></p>
+						<br/><br/><img width="50" height="50" src="img/arrow-below.png" alt="down arrow" />
+				</section>
+				<section><h2>Bamboo : Features</h2>
+					<p><a>Continuous Deployment</a><ol>
+					    <li class="fragment">Integrate Continuously</li>
+						<li class="fragment">Deploy Your Way</li>
+						<li class="fragment">Share Artifacts</li>
+						<li class="fragment">Customizable Builds</li>
+					</ol></p>
+						<br/><br/><img width="50" height="50" src="img/arrow-below.png" alt="down arrow" />
+				</section>
+				<section><h2>Bamboo : Features</h2>
+					<p><a>Release Management</a><ol>
+					    <li class="fragment">Release Confidently</li>
+						<li class="fragment">One-Click Release Process</li>
+						<li class="fragment">Manual Stages</li>
+					</ol></p>
+						<br/><br/><img width="50" height="50" src="img/arrow-below.png" alt="down arrow" />
+				</section>
+				<section><h2>Bamboo : Features</h2>
+					<p><a>Git & hg Support</a><ol>
+					    <li class="fragment">DVCS Ready</li>
+						<li class="fragment">Automatic Plan Branching<p><ol>
+							<li class="fragment">Enable automated branch detection</li>
+							<li class="fragment">All associated Plans are replicated and connected to the new code line</li>
+							<li class="fragment">Or choose to create Plan branches only when you want them</li>
+							<li class="fragment">Branch Plans automatically inherit config changes</li>
+						</ol></p></li>
+						<li class="fragment">Automatic Branch Merging</li>
+						<li class="fragment">Issue-Driven Development</li>
+					</ol></p>
+						<br/><br/><img width="50" height="50" src="img/arrow-below.png" alt="down arrow" />
+				</section>
+				<section><h2>Bamboo : Features</h2>
+					<p><a>Jira Integration</a><ol>
+					    <li class="fragment">Build Results Inside JIRA Issues<p><ol>
+							<li class="fragment">View latest results, View summary information, Link to other issues</li>							
+						</ol></p></li>						
+						<li class="fragment">Create JIRA Issues From Bamboo<p><ol>
+							<li class="fragment">Track</li>
+							<li class="fragment">Capture</li>
+							<li class="fragment">Request</li>
+							<li class="fragment">Create</li>
+						</ol></p></li>
+						<li class="fragment">Link Issues to Builds and Branches<p><ol>
+							<li class="fragment">View all issues, See the status of branch builds, View fixed issues, Manually relate issues</li>
+						</ol></p></li>
+						<li class="fragment">Dashboards and Wallboards</li>
+						<li class="fragment">Centralized User Management</li>
+					</ol></p>
+						<br/><br/><img width="50" height="50" src="img/arrow-below.png" alt="down arrow" />
+				</section>
+				<section><h2>Bamboo : Features</h2>
+					<p><a>Plugins and Integration</a><ol>
+					    <li class="fragment">Pluggable = Huggable</li>
+						<li class="fragment">Featured Add-ons<p><ol>
+							<li class="fragment">LiveRebel</li>
+							<li class="fragment">DeployIt</li>
+							<li class="fragment">Amazon Web Services</li>
+							<li class="fragment">Heroku</li>
+							<li class="fragment">SauceLabs - Selenium</li>
+						</ol></p></li>
+						<li class="fragment">What's In It For Me?</li>
+						<li class="fragment">For Love Or Money<p><ol>
+							<li class="fragment">Whatever your motivation, the Atlassian Developer Network gives you access to SDK and remote APIs so you can build your own Bamboo add-ons.</li>
+						</ol></p></li>
+					</ol></p>
+						<br/><img width="50" height="50" src="img/arrow-right.png" alt="right arrow" />
+				</section>
+		</section>
+				<section>
+					<header>
+                    <a href="http://www.amsoft.net/" target="_blank" class="logo"></a>
+                    <div class="wrapper">
+                       <h4>A Typical Bamboo Dashboard<em></em></h4>
+                    </div>
+                </header>					
+					<table style="align:center; vertical-align:top;">
+					<tr>
+					    <td style="align:center; vertical-align:top;">
+					<div class="section" id="example">
+						<div class="single">
+						<a href="Atlassian/Bamboo.jpg" rel="lightbox"><img width="600" height="250" src="Atlassian/Bamboo.jpg" alt="Atlassian Bamboo" /></a>
+						</div>
+						</div>
+						</td>
+					    <td  style="align:center; vertical-align:middle;">
+						<video id="player_a" class="projekktor" poster="media/intro.png" title="" width="200" height="150" controls>
+                               <source src="media/intro.ogv" type="video/ogg" />
+                               <source src="media/intro.mp4" type="video/mp4" />
+                               <source src="media/intro.webm" type="video/webm" />
+                         </video>
+						</td>
+					</tr>
+                    <tr><td><p>
+					    <img width="50" height="50" src="img/arrow-right.png" alt="right arrow" /></p></td>
+					</tr>					
+					</table>
+				</section>
+<!-- Ending Bamboo -->
+<!-- BitBucket -->
+				<section>
+					<h2>BitBucket : Point of View</h2>
+					<p><a>BitBucket</a> is a web-based hosting service for projects that use either the Mercurial or Git revision control systems.</p>
+					<p>Bitbucket offers both commercial plans and free accounts. It offers free accounts with unlimited numbers of private repositories (which can have up to five users in the case of free accounts).</p>
+					<p>Private repositories are not shown on profile pages. Bitbucket is written in Python using the Django web framework. It is similar to GitHub, which uses primarily Git.</p>
+					<br/><img width="50" height="50" src="img/arrow-right.png" alt="right arrow" />
+					</p>
+				</section>
+				<section>
+					<section><h2>BitBucket : Features</h2>
+					<p><a>Why Bitbucket</a><ol>
+					        <li class="fragment">Unlimited Private Repositories</li>
+							<li class="fragment">Work as a Team</li>
+							<li class="fragment">Code Reviews</li>
+							<li class="fragment">Built for JIRA</li>
+						</ol></p> 
+					<br/><img width="50" height="50" src="img/arrow-below.png" alt="down arrow" />
+					</section>
+					<section><h2>BitBucket : Features</h2>
+					<p><a>Browse Code</a><ol>
+					        <li class="fragment">A Home for Your Code</li>
+							<li class="fragment">Source Browser</li>
+							<li class="fragment">Advanced Tracking</li>
+						</ol></p> 
+					<br/><img width="50" height="50" src="img/arrow-below.png" alt="down arrow" />
+					</section>
+					<section><h2>BitBucket : Features</h2>
+					<p><a>Discuss Code</a><ol>
+					        <li class="fragment">Pull Requests</li>
+							<li class="fragment">Changeset Comments</li>
+							<li class="fragment">Compare Anything</li>
+						</ol></p><br/><img width="50" height="50" src="img/arrow-below.png" alt="down arrow" />
+					</section>
+					<section><h2>BitBucket : Features</h2>
+					<p><a>Built for Teams</a><ol>
+					        <li class="fragment">Collaborate Seamlessly</li>
+							<li class="fragment">Streamlined Administration</li>
+							<li class="fragment">Priced for Small Teams</li>
+						</ol></p><br/><img width="50" height="50" src="img/arrow-below.png" alt="down arrow" />
+					</section>
+					<section><h2>BitBucket : Features</h2>
+					<p><a>For Jira and/or Jira Users</a><ol>
+					        <li class="fragment">A Dev Suite That Works</li>
+							<li class="fragment">Map Repos to JIRA</li>
+							<li class="fragment">Work Smarter</li>
+						</ol></p><br/><img width="50" height="50" src="img/arrow-below.png" alt="down arrow" />
+					</section>
+					<section><h2>BitBucket : Features</h2>
+					<p><a>Source Tree</a><ol>
+					        <li class="fragment">DVCS for Everyone</li>
+							<li class="fragment">Clone Repos with One Click</li>
+							<li class="fragment">Get out of the Command Line</li>
+						</ol></p><br/><img width="50" height="50" src="img/arrow-right.png" alt="down right" />
+					</section>
+				</section>
+				<section>
+					<header>
+                    <a href="http://www.amsoft.net/" target="_blank" class="logo"></a>
+                    <div class="wrapper">
+                       <h4>A Typical BitBucket Dashboard<em></em></h4>
+                    </div>
+                </header>
+					<table style="align:center; vertical-align:top;">
+					<tr>
+					    <td style="align:center; vertical-align:top;">
+					<div class="section" id="example">
+						<div class="single">
+						<a href="Atlassian/BitBucket.jpg" rel="lightbox"><img width="600" height="250" src="Atlassian/BitBucket.jpg" alt="Atlassian BitBucket" /></a>
+						</div>
+						</div>
+						</td>
+					    <td  style="align:center; vertical-align:middle;">
+						<video id="player_a" class="projekktor" poster="media/intro.png" title="" width="200" height="150" controls>
+                               <source src="media/intro.ogv" type="video/ogg" />
+                               <source src="media/intro.mp4" type="video/mp4" />
+                               <source src="media/intro.webm" type="video/webm" />
+                         </video>
+						</td>
+					</tr>
+                    <tr><td><p>
+					    <img width="50" height="50" src="img/arrow-right.png" alt="right arrow" /></p></td>
+					</tr>					
+					</table>
+				</section>
+<!-- Ending BitBucket -->
+<!--
+			<section>
+					<h2>Works in Mobile Safari</h2>
+					<p>
+						Try it out! You can swipe through the slides and pinch your way to the overview.
+					</p>
+				</section>
+				<section>
+					<h2>Marvelous Unordered List</h2>
+					<ul>
+						<li>No order here</li>
+						<li>Or here</li>
+						<li>Or here</li>
+						<li>Or here</li>
+					</ul>
+				</section>
+				<section>
+					<h2>Fantastic Ordered List</h2>
+					<ol>
+						<li>One is smaller than...</li>
+						<li>Two is smaller than...</li>
+						<li>Three!</li>
+					</ol>
+				</section>
+				<section data-markdown>
+					<script type="text/template">
+						## Markdown support
+						For those of you who like that sort of thing. Instructions and a bit more info available [here](https://github.com/hakimel/reveal.js#markdown).
+							<section data-markdown>
+							  ## Markdown support
+							  For those of you who like that sort of thing.
+							  Instructions and a bit more info available [here](https://github.com/hakimel/reveal.js#markdown).
+							</section>
+					</script>
+				</section>
+				<section id="transitions">
+					<h2>Transition Styles</h2>
+					<p>
+						You can select from different transitions, like: <br>
+						<a href="?transition=cube#/transitions">Cube</a> -
+						<a href="?transition=page#/transitions">Page</a> -
+						<a href="?transition=concave#/transitions">Concave</a> -
+						<a href="?transition=zoom#/transitions">Zoom</a> -
+						<a href="?transition=linear#/transitions">Linear</a> -
+						<a href="?transition=none#/transitions">None</a> -
+						<a href="?#/transitions">Default</a>
+					</p>
+				</section>
+				<section id="themes">
+					<h2>Themes</h2>
+					<p>
+						Confluence comes with a few themes built in: <br>
+						<a href="?theme=sky#/themes">Sky</a> -
+						<a href="?theme=beige#/themes">Beige</a> -
+						<a href="?theme=simple#/themes">Simple</a> -
+						<a href="?theme=serif#/themes">Serif</a> -
+						<a href="?theme=night#/themes">Night</a> -
+						<a href="?#/themes">Default</a>
+					</p>
+					<p>
+						<small>
+							* Theme demos are loaded after the presentation which leads to flicker. In production you should load your theme in the <code>&lt;head&gt;</code> using a <code>&lt;link&gt;</code>.
+						</small>
+					</p>
+				</section>
+				<section>
+					<section data-state="alert">
+						<h2>Global State</h2>
+						<p>
+							Set <code>data-state="something"</code> on a slide and <code>"something"</code>
+							will be added as a class to the document element when the slide is open. This lets you
+							apply broader style changes, like switching the background.
+						</p>
+						<a href="#" class="image navigate-down">
+							<img width="178" height="238" src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
+						</a>
+					</section>
+					<section data-state="blackout">
+						<h2>"blackout"</h2>
+						<a href="#" class="image navigate-down">
+							<img width="178" height="238" src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
+						</a>
+					</section>
+					<section data-state="soothe">
+						<h2>"soothe"</h2>
+						<a href="#" class="image navigate-next">
+							<img width="178" height="238" src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Up arrow" style="-webkit-transform: rotate(-90deg);">
+						</a>
+					</section>
+				</section>
+				<section data-state="customevent">
+					<h2>Custom Events</h2>
+					<p>
+						Additionally custom events can be triggered on a per slide basis by binding to the <code>data-state</code> name.
+					</p>
+					<pre><code contenteditable style="font-size: 18px; margin-top: 20px;">Reveal.addEventListener( 'customevent', function() {
+	console.log( '"customevent" has fired' );
+} );
+					</code></pre>
+				</section>
+				<section>
+					<h2>Clever Quotes</h2>
+					<p>
+						These guys come in two forms, inline: <q cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
+						The nice thing about standards is that there are so many to choose from</q> and block:
+					</p>
+					<blockquote cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
+						For years there has been a theory that millions of monkeys typing at random on millions of typewriters would
+						reproduce the entire works of Shakespeare. The Internet has proven this theory to be untrue.
+					</blockquote>
+				</section>
+				<section>
+					<h2>Pretty Code</h2>
+					<pre><code contenteditable>
+function linkify( selector ) {
+  if( supports3DTransforms ) {
+    var nodes = document.querySelectorAll( selector );
+    for( var i = 0, len = nodes.length; i &lt; len; i++ ) {
+      var node = nodes[i];
+      if( !node.className ) ) {
+        node.className += ' roll';
+      }
+    };
+  }
+}
+					</code></pre>
+					<p>Courtesy of <a href="http://softwaremaniacs.org/soft/highlight/en/description/">highlight.js</a>.</p>
+				</section>
+				<section>
+					<h2>Intergalactic Interconnections</h2>
+					<p>
+						You can link between slides internally,
+						<a href="#/2/3">like this</a>.
+					</p>
+				</section>
+				<section>
+					<section>
+						<h2>Fragmented Views</h2>
+						<p>Hit the next arrow...</p>
+						<p class="fragment">... to step through ...</p>
+						<ol>
+							<li class="fragment"><code>any type</code></li>
+							<li class="fragment"><em>of view</em></li>
+							<li class="fragment">fragments</li>
+						</ol>
+						<aside class="notes">
+							This slide has fragments which are also stepped through in the notes window.
+						</aside>
+					</section>
+					<section>
+						<h2>Fragment Styles</h2>
+						<p>There's a few styles of fragments, like:</p>
+						<p class="fragment grow">grow</p>
+						<p class="fragment shrink">shrink</p>
+						<p class="fragment roll-in">roll-in</p>
+						<p class="fragment fade-out">fade-out</p>
+						<p class="fragment highlight-red">highlight-red</p>
+						<p class="fragment highlight-green">highlight-green</p>
+						<p class="fragment highlight-blue">highlight-blue</p>
+					</section>
+				</section>
+				<section>
+					<h2>Spectacular image!</h2>
+					<a class="image" href="http://lab.hakim.se/meny/" target="_blank">
+						<img width="320" height="299" src="http://s3.amazonaws.com/hakim-static/portfolio/images/meny.png" alt="Meny">
+					</a>
+				</section>
+				<section>
+					<h2>Export to PDF</h2>
+					<p>Presentations can be <a href="https://github.com/hakimel/reveal.js#pdf-export">exported to PDF</a>, below is an example that's been uploaded to SlideShare.</p>
+					<iframe id="slideshare" src="http://www.slideshare.net/slideshow/embed_code/13872948" width="455" height="356" style="margin:0;overflow:hidden;border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen> </iframe>
+					<script>
+						document.getElementById('slideshare').attributeName = 'allowfullscreen';
+					</script>
+				</section>
+				<section>
+					<h2>Take a Moment</h2>
+					<p>
+						Press b or period on your keyboard to enter the 'paused' mode. This mode is helpful when you want to take disctracting slides off the screen
+						during a presentation.
+					</p>
+				</section>
+				<section>
+					<h2>Stellar Links</h2>
+					<ul>
+						<li><a href="https://github.com/hakimel/reveal.js">Source code on GitHub</a></li>
+						<li><a href="http://hakim.se/projects/reveal-js">Leave feedback on my site</a></li>
+						<li><a href="http://twitter.com/hakimel">Follow me on Twitter</a></li>
+					</ul>
+				</section>
+				<section>
+					<h2>It's free</h2>
+					<p>
+						reveal.js and <a href="http://www.rvl.io">rvl.io</a> are entirely free but if you'd like to support the projects you can donate below.
+						Donations will go towards hosting and domain costs.
+					</p>
+					<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+						<input type="hidden" name="cmd" value="_donations">
+						<input type="hidden" name="business" value="hakim.elhattab@gmail.com">
+						<input type="hidden" name="lc" value="US">
+						<input type="hidden" name="item_name" value="reveal.js / rvl.io">
+						<input type="hidden" name="no_note" value="0">
+						<input type="hidden" name="currency_code" value="USD">
+						<input type="hidden" name="bn" value="PP-DonationsBF:btn_donate_LG.gif:NonHostedGuest">
+						<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+					</form>
+				</section>
+-->
+				<section>
+					<h1>THE END</h1>
+					<h2>THANK YOU</h2>
+					<h3><a>QA TEAM</a> - <a>Http://www.amsoft.net</a></h3>
+				</section>
+			</div>
+		</div>
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+		
+		<script src="js/jquery-ui-1.8.18.custom.min.js"></script>
+        <script src="js/jquery.smooth-scroll.min.js"></script>
+        <script src="js/lightbox.js"></script>
+		
+		<script type="text/javascript" src="js/jquery.slicebox.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				
+				var Page = (function() {
+
+					var $navArrows = $( '#nav-arrows' ).hide(),
+						$shadow = $( '#shadow' ).hide(),
+						slicebox = $( '#sb-slider' ).slicebox( {
+							onReady : function() {
+
+								$navArrows.show();
+								$shadow.show();
+
+							},
+							orientation : 'r',
+							cuboidsRandom : true,
+							disperseFactor : 30
+						} ),
+						
+						init = function() {
+
+							initEvents();
+							
+						},
+						initEvents = function() {
+
+							// add navigation events
+							$navArrows.children( ':first' ).on( 'click', function() {
+
+								slicebox.next();
+								return false;
+
+							} );
+
+							$navArrows.children( ':last' ).on( 'click', function() {
+								
+								slicebox.previous();
+								return false;
+
+							} );
+
+						};
+
+						return { init : init };
+
+				})();
+
+				Page.init();
+
+			});
+		</script>		
+   <script>
+  jQuery(document).ready(function($) {
+      $('a').smoothScroll({
+        speed: 1000,
+        easing: 'easeInOutCubic'
+      });
+
+      $('.showOlderChanges').on('click', function(e){
+        $('.changelog .old').slideDown('slow');
+        $(this).fadeOut();
+        e.preventDefault();
+      })
+  });
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-2196019-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+        </script>
+		<script>
+			// Full list of configuration options available here:
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/none
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/showdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+					// { src: 'plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+		</script>
+		<script type="text/javascript">
+	          $(document).ready(function() {
+	           projekktor(
+                '#player_a', // destination-container-selector-fuzz a la jQuery
+                {}, // an empty Projekktor-ccofig-object
+                function(player) { // "onready" callback -
+                    // $('#projekktorver').html( player.getPlayerVer() );
+                }
+				[b]onReadyFunc = function(player) {
+		             player.setFullscreen(true);
+                    	}[/b]
+	                 var player = projekktor('.projekktor', {
+		                width: 1000,
+                   		height: 600,	
+		                autoplay: true,
+		                continuous: true,
+		                volume: 1,
+		                enableFullScreen:true,
+		            }, [b]onReadyFunc[/b]);
+	            );
+        	});
+    </script>	
+	</body>
+</html>
