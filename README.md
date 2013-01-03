@@ -4,6 +4,7 @@
 
 A presentation on Atlassian products jira, Confluence, Crucible, Bamboo, Bitbucket etc using THE HTML PRESENTATION FRAMEWORK by HAKIM EL HATTAM, Image overlay 
 Framework named Lightbox2 by LOKESH DHAKAR, Header-Footer Design Framework named CSS-PSEUDO-ELEMENTS by ADOBE SYSTEMS and image Slider framework named Slicebox.
+Added a additional framework named Curtains for this presentation.
 
 ![Atlassian Presentation](https://github.com/amsoft-systems/reveal.js-presentation/raw/master/img/open.jpg)
 
@@ -384,4 +385,3 @@ ERLS and/or DENNO SECQTINSTIEN FOUNDATION licensed
 
 Jira, Confluence, Crucible, Bamboo, Bitbucket etc are registered trade mark of Atlassian Company and other trademarks used are registered trademark of their respective authors.
 
-fork me @ https://github.com/Amsoft-Systems/reveal.js-presentation
